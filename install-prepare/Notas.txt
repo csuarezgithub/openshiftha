@@ -1,0 +1,61 @@
+1.-Relacion de confianza con todos los hosts verificar cuantas tarjetas de red tiene!!
+2.-Configuracion de repositorios
+
+
+subscription-manager register --username eduardoolguin --password ClaveCompartida2018 --auto-attach
+#subscription-manager list --available
+
+subscription-manager attach --pool=8a85f99965c8ca6e0166ad30a1253c16
+
+#8a85f99a65c8c8a101663556d0c55dd3
+
+subscription-manager repos --enable="rhel-7-server-rpms" --enable="rhel-7-server-extras-rpms" --enable="rhel-7-server-ose-3.9-rpms"     --enable="rhel-7-fast-datapath-rpms"     --enable="rhel-7-server-ansible-2.4-rpms"
+
+
+#Instalar una version especifica de ansible en ubuntu
+
+sudo apt-get install python-pip python-dev
+sudo -H pip install ansible==2.4.0.0
+#Sdebe buscar el binario para ejecutar ansible
+which ansible
+/usr/local/bin/ansible
+/usr/local/bin/ansible --version
+#Copiar binario para que se ejectue en la shell
+sudo cp /usr/local/bin/ansible /usr/bin/
+
+1.-Verifique que cada nodo esté configurado correctamente.
+
+Verifique que el servicio de acoplador esté iniciado y habilitado en cada nodo.
+
+for vm in master.lab.example.com node1.lab.example.com node2.lab.example.com
+do 
+echo -e "\n$vm"
+ssh vagrant@$vm sudo systemctl status docker | head -n3 
+done
+
+2.-Verifique que el daemon de Docker use un volumen lógico nombrado docker-pool del grupo de volúmenes docker-vg .
+
+Use el comando lvs para enumerar los volúmenes lógicos en cada host. Use el comando df -h para verificar que el volumen lógico esté montado en el /var/lib/docker directorio.
+
+for vm in master.lab.example.com node1.lab.example.com node2.lab.example.com; do
+echo -e "\n$vm : lvs"
+ssh vagrant@$vm sudo lvs
+echo -e "\n$vm : df -h"
+ssh vagrant@$vm sudo df -h | grep vg-docker
+done
+
+3.-Use el comando docker pull para verificar que las imágenes se extraigan del registro privado local de forma predeterminada. Esto también prueba si el certificado de registro privado es de confianza en cada nodo.
+
+for vm in master.lab.example.com node1.lab.example.com node2.lab.example.com; do
+echo -e "\n$vm"
+ssh vagrant@$vm docker pull rhel7:latest
+done
+
+4.-Verifique que los paquetes necesarios para la instalación estén presentes en cada nodo.
+
+for vm in master.lab.example.com node1.lab.example.com node2.lab.example.com; do
+echo -e "\n$vm"
+ssh vagrant@$vm rpm -qa wget git net-tools bind-utils \
+     yum-utils iptables-services bridge-utils bash-completion \
+     kexec-tools sos psacct atomic-openshift-utils
+done

@@ -1,0 +1,17 @@
+---
+- name: "Host Preparation: Docker tasks"
+  hosts: nodes
+  roles:
+   # - repo
+    - docker-storage
+   # - docker-registry-cert
+    - openshift-node
+
+  #Tasks below were not handled by the roles above.
+  tasks:
+     - name: Vagrant Account - Docker Access
+       user:
+         name: vagrant
+         groups: docker
+         append: yes
+...

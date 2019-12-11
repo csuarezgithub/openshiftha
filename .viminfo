@@ -1,0 +1,271 @@
+# Vim 7.4 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:q!
+:wq!
+:set number
+:'<,'
+:Wq!
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Registros:
+
+# Marcas en el archivo:
+'0  4  37  /etc/hosts
+'1  1  0  ~/install-run/cluster-pre/hosts-ucf
+'2  90  7  ~/install-run/cluster-pre/hosts-ucf
+'3  71  5  ~/install-run/cluster-pre/hosts-ucf
+'4  1  0  ~/install-run/cluster-pre/hosts-ucf}
+'5  87  49  ~/install-run/cluster-pre/hosts-ucf
+'6  78  0  ~/install-run/cluster-pre/hosts-ucf
+'7  65  0  ~/install-run/cluster-pre/hosts-ucf
+'8  54  33  /etc/haproxy/haproxy.cfg
+'9  94  0  ~/install-run/cluster-pre/hosts-ucf
+
+# Lista de saltos (el más reciente va primero):
+-'  4  37  /etc/hosts
+-'  5  0  /etc/hosts
+-'  1  0  ~/install-run/cluster-pre/hosts-ucf
+-'  90  0  ~/install-run/cluster-pre/hosts-ucf
+-'  71  0  ~/install-run/cluster-pre/hosts-ucf
+-'  87  0  ~/install-run/cluster-pre/hosts-ucf
+-'  1  0  ~/install-run/cluster-pre/hosts-ucf}
+-'  78  0  ~/install-run/cluster-pre/hosts-ucf
+-'  65  0  ~/install-run/cluster-pre/hosts-ucf
+-'  94  0  ~/install-run/cluster-pre/hosts-ucf
+-'  54  33  /etc/haproxy/haproxy.cfg
+-'  1  0  /etc/haproxy/haproxy.cfg
+-'  80  0  ~/install-run/cluster-pre/hosts-ucf
+-'  83  0  ~/install-run/cluster-pre/hosts-ucf
+-'  50  0  ~/install-run/cluster-pre/hosts-ucf
+-'  1  0  /etc/hosts
+-'  68  0  ~/install-run/cluster-pre/hosts-ucf
+-'  286  0  ~/install-run/openshift-ansible/roles/openshift_control_plane/tasks/main.yml
+-'  1  0  ~/install-run/openshift-ansible/roles/openshift_control_plane/tasks/main.yml
+-'  66  0  ~/install-run/cluster-pre/hosts-ucf
+-'  88  0  ~/install-run/cluster-pre/hosts-ucf
+-'  31  0  ~/install-run/cluster-pre/hosts-ucf
+-'  28  0  ~/install-run/cluster-pre/hosts-ucf
+-'  11  0  ~/install-run/cluster-pre/hosts-ucf
+-'  1  0  install-run/cluster-pre/hosts-ucf
+-'  16  0  ~/install-run/cluster-pre/hosts-ucf
+-'  13  0  ~/install-run/cluster-pre/hosts-ucf
+-'  14  0  ~/install-run/cluster-pre/hosts-ucf
+-'  17  0  ~/install-run/cluster-pre/hosts-ucf
+-'  96  0  ~/install-run/cluster-pre/hosts-ucf
+-'  48  0  ~/install-run/cluster-pre/hosts-ucf
+-'  45  0  ~/install-run/cluster-pre/hosts-ucf
+-'  7  0  ~/install-run/ansible.cfg
+-'  1  0  ~/install-run/ansible.cfg
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  7  0  ~/install-run/ansible.cfg
+-'  1  0  ~/install-run/ansible.cfg
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  7  0  ~/install-run/ansible.cfg
+-'  1  0  ~/install-run/ansible.cfg
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  7  0  ~/install-run/ansible.cfg
+-'  1  0  ~/install-run/ansible.cfg
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  7  0  ~/install-run/ansible.cfg
+-'  1  0  ~/install-run/ansible.cfg
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  7  0  ~/install-run/ansible.cfg
+-'  1  0  ~/install-run/ansible.cfg
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  7  0  ~/install-run/ansible.cfg
+-'  1  0  ~/install-run/ansible.cfg
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  7  0  ~/install-run/ansible.cfg
+-'  1  0  ~/install-run/ansible.cfg
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  7  0  ~/install-run/ansible.cfg
+-'  1  0  ~/install-run/ansible.cfg
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  7  0  ~/install-run/ansible.cfg
+-'  1  0  ~/install-run/ansible.cfg
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  7  0  ~/install-run/ansible.cfg
+-'  1  0  ~/install-run/ansible.cfg
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+-'  1  2  ~/install-run/cluster-pre/pre-install.yml
+-'  61  6  ~/install-run/cluster-pre/pre-install.yml
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> /etc/hosts
+	"	4	37
+	^	4	38
+	.	4	37
+	+	4	37
+
+> ~/install-run/cluster-pre/hosts-ucf
+	"	1	0
+	^	90	8
+	.	90	7
+	+	58	0
+	+	16	27
+	+	17	22
+	+	16	26
+	+	17	22
+	+	13	1
+	+	17	9
+	+	12	1
+	+	15	7
+	+	13	24
+	+	14	30
+	+	13	28
+	+	11	26
+	+	16	25
+	+	9	0
+	+	11	23
+	+	31	100
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	80	0
+	+	88	0
+	+	87	99
+	+	31	0
+	+	68	24
+	+	67	24
+	+	66	23
+	+	81	102
+	+	80	71
+	+	81	71
+	+	82	71
+	+	83	71
+	+	84	71
+	+	85	71
+	+	86	69
+	+	87	69
+	+	66	24
+	+	67	24
+	+	68	24
+	+	47	0
+	+	81	131
+	+	82	128
+	+	83	128
+	+	84	128
+	+	85	130
+	+	86	128
+	+	87	70
+	+	66	81
+	+	67	81
+	+	68	81
+	+	81	0
+	+	71	84
+	+	75	167
+	+	77	81
+	+	73	81
+	+	90	69
+	+	87	49
+	+	23	0
+	+	66	24
+	+	67	24
+	+	68	24
+	+	66	7
+	+	67	7
+	+	68	7
+	+	67	41
+	+	68	32
+	+	71	7
+	+	72	7
+	+	73	7
+	+	71	8
+	+	72	8
+	+	73	8
+	+	71	32
+	+	72	31
+	+	73	32
+	+	71	34
+	+	72	40
+	+	73	40
+	+	76	7
+	+	77	7
+	+	78	7
+	+	76	55
+	+	77	87
+	+	78	87
+	+	79	7
+	+	80	7
+	+	81	7
+	+	82	7
+	+	83	7
+	+	79	86
+	+	80	86
+	+	81	86
+	+	82	87
+	+	83	87
+	+	87	40
+	+	90	7
+
+> ~/install-run/cluster-pre/hosts-ucf}
+	"	1	0
+
+> /etc/haproxy/haproxy.cfg
+	"	54	33
+
+> ~/install-run/openshift-ansible/roles/openshift_control_plane/tasks/main.yml
+	"	286	0
+
+> install-run/cluster-pre/hosts-ucf
+	"	1	0
+
+> ~/install-run/ansible.cfg
+	"	7	0
+
+> ~/install-run/cluster-pre/pre-install.yml
+	"	1	2
+	^	61	13
+	.	2	12
+	+	2	12

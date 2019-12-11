@@ -1,0 +1,21 @@
+yum install git
+
+Clone openshift-ansible:
+
+$ git clone https://github.com/openshift/openshift-ansible.git
+$ cd openshift-ansible
+$ git checkout release-3.9
+
+sudo yum install bind-utils
+
+dig master1.lab.example.com | grep -i in
+
+declare -a nodes=(console services master1 master2 master3 infra1 infra2 app1 app2)
+for node in ${nodes[@]};do dig ${node}.lab.example.com | grep -i in; done
+
+[root@console cluster-pre]# pwd
+/home/vagrant/install-run/cluster-pre
+[root@console cluster-pre]# 
+
+
+# ansible-playbook -i hosts-ucf pre-install.yml

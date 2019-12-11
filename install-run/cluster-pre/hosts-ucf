@@ -1,0 +1,90 @@
+[OSEv3:children]
+masters
+etcd
+nodes
+nfs
+lb
+
+[OSEv3:vars]
+openshift_deployment_type=openshift-enterprise
+deployment_type=openshift-enterprise
+openshift_release=v3.11
+#Ensure the following to options are set to the same value in the ansible inventory file:
+openshift_image_tag=v3.11.154
+openshift_pkg_version=-3.11.154
+#-------
+openshift_version=3.11.154
+openshift_disable_check=disk_availability,docker_storage,memory_availability
+
+openshift_master_api_port=443
+openshift_master_console_port=443
+openshift_portal_net=172.30.0.0/16
+osm_cluster_network_cidr=10.128.0.0/14
+os_sdn_network_plugin_name='redhat/openshift-ovs-networkpolicy'
+
+openshift_master_cluster_method=native
+openshift_master_cluster_hostname=console.lab.example.com
+openshift_master_cluster_public_hostname=console.lab.example.com
+openshift_master_default_subdomain=apps.lab.example.com
+
+#Cluster Authentication Variables
+#openshift_master_identity_providers=[{'name': 'htpasswd_auth', 'login': 'true', 'challenge': 'true', 'kind': 'HTPasswdPasswordIdentityProvider'}]
+openshift_master_htpasswd_users={'admin':'$apr1$lov8vwWW$0wEauav7FMlXYA1e409Tj.', 'developer': '$apr1$74thcmM/$NkQ1JGZDnvNyd3vT3HFYg1'}
+
+#OCR configuration variables
+#Registry Configuration Variables
+openshift_hosted_registry_storage_kind=nfs
+openshift_hosted_registry_storage_access_modes=['ReadWriteMany']
+openshift_hosted_registry_storage_nfs_directory=/exports
+openshift_hosted_registry_storage_nfs_options='*(rw,root_squash)'
+openshift_hosted_registry_storage_volume_name=registry
+openshift_hosted_registry_storage_volume_size=10Gi
+
+openshift_router_selector='region=infra'
+openshift_registry_selector='region=infra'
+
+openshift_enable_unsupported_configurations=True
+#openshift_set_node_ip=True
+ansible_ssh_user=root
+
+#[OSEv3:vars]
+#General Cluster Variables
+#openshift_deployment_type=openshift-enterprise
+#openshift_release=v3.11
+#openshift_image_tag=v3.11
+#openshift_disable_check=disk_availability,docker_storage,memory_availability
+#openshift_cockpit_deployer_prefix='openshift3/'
+
+#running offline
+openshift_docker_additional_registries=registry.lab.example.com:5000,registry.access.redhat.com,docker.io
+openshift_docker_insecure_registries=registry.lab.example.com:5000
+oreg_url=registry.access.redhat.com/openshift3/ose-${component}:${version}
+openshift_examples_modify_imagestreams=true
+
+
+[masters]
+master1 openshift_public_hostname=master1.lab.example.com
+master2 openshift_public_hostname=master2.lab.example.com
+master3 openshift_public_hostname=master3.lab.example.com
+
+[etcd]
+master1 openshift_public_hostname=master1.lab.example.com
+master2 openshift_public_hostname=master2.lab.example.com
+master3 openshift_public_hostname=master3.lab.example.com
+
+[nodes]
+master1 openshift_node_group_name='node-config-master' openshift_public_hostname=master1.lab.example.com
+master2 openshift_node_group_name='node-config-master' openshift_public_hostname=master2.lab.example.com
+master3 openshift_node_group_name='node-config-master' openshift_public_hostname=master3.lab.example.com
+infra1  openshift_node_group_name='node-config-infra'  openshift_public_hostname=infra1.lab.example.com
+infra2  openshift_node_group_name='node-config-infra'  openshift_public_hostname=infra2.lab.example.com
+infra3  openshift_node_group_name='node-config-infra'  openshift_public_hostname=infra3.lab.example.com
+app1    openshift_node_group_name='node-config-compute'   openshift_public_hostname=app1.lab.example.com
+app2    openshift_node_group_name='node-config-compute'   openshift_public_hostname=app2.lab.example.com
+
+
+[nfs]
+console openshift_public_hostname=console.lab.example.com
+
+[lb]
+console openshift_public_hostname=console.lab.example.com

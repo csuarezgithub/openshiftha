@@ -1,0 +1,112 @@
+Instalar subscription para Instalar registro interno
+
+2.-Configuracion de repositorios (services.lab.example.com)
+
+subscription-manager register --username eduardoolguin --password ClaveCompartida2018 --auto-attach
+#subscription-manager list --available
+
+subscription-manager attach --pool=8a85f99965c8ca6e0166ad30a1253c16
+
+#8a85f99a65c8c8a101663556d0c55dd3
+
+subscription-manager repos --enable="rhel-7-server-rpms" --enable="rhel-7-server-extras-rpms" --enable="rhel-7-server-ose-3.9-rpms"     --enable="rhel-7-fast-datapath-rpms"     --enable="rhel-7-server-ansible-2.4-rpms"
+
+El proceso de creación del registro es el siguiente:
+
+1.-Instale los paquetes docker , docker-distribution y firewalld :
+
+# yum install -y docker docker-distribution firewalld
+
+2.-Habilitar e iniciar el firewalld servicio:
+
+# systemctl enable firewalld
+# systemctl start firewalld
+
+3.-Abra el puerto TCP 5000 en el firewall para permitir el acceso al registro privado:
+
+# firewall-cmd --add-port 5000/tcp --permanent
+# firewall-cmd --reload
+
+4.-Habilitar e iniciar el docker-distribution servicio:
+
+# systemctl enable docker-distribution
+# systemctl start docker-distribution
+
+5.-Los siguientes comandos son ejemplos que confirman la conectividad tanto al registro de Red Hat como al registro privado recién instalado.
+
+6.-Pruebe su conexión con el registro de Red Hat:
+
+$ curl -IL registry.access.redhat.com
+HTTP / 1.0 302 encontrado
+Ubicación: https://access.redhat.com/search/#/container-images
+Servidor: BigIP
+Conexión: cerrar
+Longitud del contenido: 0
+
+HTTP/2 200
+...
+          
+7.-Pruebe la conexión a su registro privado:
+
+$ curl -I registry.mycluster.example.com:5000
+HTTP / 1.1 200 OK
+Cache-Control: no-cache
+Fecha: lunes, 10 de abril de 2017 15:18:09 GMT
+Tipo de contenido: texto / sin formato; charset = utf-8
+
+instalar registro seguro..
+
+variables de entorno en playbook pre
+
+registry_host: services.lab.example.com
+cacert: /etc/pki/tls/certs/example.com.crt
+local_destination: /tmp/
+source: "/tmp/{{ ansible_fqdn }}/etc/pki/tls/certs/example.com.crt"
+destination: /etc/pki/ca-trust/source/anchors/example.com.crt
+
+crear certificado
+3.-Configurar certificado para registry interno.
+$openssl req -newkey rsa:4096 -nodes -sha256 -keyout ca.key -x509 -days 365 -out example.com.crt
+
+Nota: el certificado queda siempre desde donde se ejecuta el comando este archivo se debe copiar al la ruta /etc/pki/tls/certs/
+
+el archivo ca.key se debe copiar en la siguiente ruta /etc/pki/tls/private/
+
+ommon Name (eg, your name or your server's hostname): 
+
+4.-instalar paquete para ejecuta htpasswd
+
+#yum install -y httpd-tools 
+
+Ahora, cree un archivo de contraseña HTTP de la siguiente manera:
+#htpasswd -c -B /etc/docker-distribution/dockerpasswd redhat
+password: redhat
+
+!!!!!!!
+
+version: 0.1
+log:
+  fields:
+    service: registry
+storage:
+    cache:
+        layerinfo: inmemory
+    filesystem:
+        rootdirectory: /var/lib/registry
+    delete:
+        enabled: true
+http:
+    addr: 172.25.240.40:5000
+    tls:
+      certificate: /etc/pki/tls/certs/example.com.crt
+      key: /etc/pki/tls/private/ca.key
+auth:
+    htpasswd:
+        realm: example.com
+        path: /etc/docker-distribution/dockerpasswd
+
+!!!!
+
+systemctl status docker-distribution
+systemctl restart docker-distribution
+systemctl status docker-distribution

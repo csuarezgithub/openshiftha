@@ -1,0 +1,2955 @@
+2019-11-12 14:45:33,131 p=9149 u=vagrant |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-12 14:45:33,149 p=9149 u=vagrant |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-12 14:45:33,935 p=9149 u=vagrant |  fatal: [master3.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:45:33,988 p=9149 u=vagrant |  fatal: [infra1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:45:33,990 p=9149 u=vagrant |  fatal: [infra2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:45:33,990 p=9149 u=vagrant |  fatal: [master1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:45:33,991 p=9149 u=vagrant |  fatal: [master2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:45:34,175 p=9149 u=vagrant |  fatal: [infra3.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:45:34,181 p=9149 u=vagrant |  fatal: [app1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:45:34,192 p=9149 u=vagrant |  fatal: [app2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:45:34,197 p=9149 u=vagrant |   [WARNING]: Could not create retry file '/home/vagrant/install-run/cluster-pre/pre-install.retry'.         [Errno 13] Permission denied: u'/home/vagrant/install-run
+/cluster-pre/pre-install.retry'
+
+2019-11-12 14:45:34,197 p=9149 u=vagrant |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-12 14:45:34,197 p=9149 u=vagrant |  app1.lab.example.com       : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:45:34,197 p=9149 u=vagrant |  app2.lab.example.com       : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:45:34,198 p=9149 u=vagrant |  infra1.lab.example.com     : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:45:34,198 p=9149 u=vagrant |  infra2.lab.example.com     : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:45:34,198 p=9149 u=vagrant |  infra3.lab.example.com     : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:45:34,199 p=9149 u=vagrant |  master1.lab.example.com    : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:45:34,199 p=9149 u=vagrant |  master2.lab.example.com    : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:45:34,199 p=9149 u=vagrant |  master3.lab.example.com    : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:06,597 p=9184 u=vagrant |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-12 14:46:06,615 p=9184 u=vagrant |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-12 14:46:12,237 p=9184 u=vagrant |  fatal: [master3.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Authentication failure.", "unreachable": true}
+2019-11-12 14:46:12,257 p=9184 u=vagrant |  fatal: [master2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Authentication failure.", "unreachable": true}
+2019-11-12 14:46:12,273 p=9184 u=vagrant |  fatal: [infra2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Authentication failure.", "unreachable": true}
+2019-11-12 14:46:12,308 p=9184 u=vagrant |  fatal: [master1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Authentication failure.", "unreachable": true}
+2019-11-12 14:46:12,821 p=9184 u=vagrant |  fatal: [infra1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Authentication failure.", "unreachable": true}
+2019-11-12 14:46:16,345 p=9184 u=vagrant |  fatal: [infra3.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Authentication failure.", "unreachable": true}
+2019-11-12 14:46:16,346 p=9184 u=vagrant |  fatal: [app1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Authentication failure.", "unreachable": true}
+2019-11-12 14:46:16,351 p=9184 u=vagrant |  fatal: [app2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Authentication failure.", "unreachable": true}
+2019-11-12 14:46:16,354 p=9184 u=vagrant |   [WARNING]: Could not create retry file '/home/vagrant/install-run/cluster-pre/pre-install.retry'.         [Errno 13] Permission denied: u'/home/vagrant/install-run
+/cluster-pre/pre-install.retry'
+
+2019-11-12 14:46:16,355 p=9184 u=vagrant |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-12 14:46:16,355 p=9184 u=vagrant |  app1.lab.example.com       : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:16,355 p=9184 u=vagrant |  app2.lab.example.com       : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:16,355 p=9184 u=vagrant |  infra1.lab.example.com     : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:16,356 p=9184 u=vagrant |  infra2.lab.example.com     : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:16,356 p=9184 u=vagrant |  infra3.lab.example.com     : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:16,356 p=9184 u=vagrant |  master1.lab.example.com    : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:16,356 p=9184 u=vagrant |  master2.lab.example.com    : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:16,357 p=9184 u=vagrant |  master3.lab.example.com    : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:49,165 p=9262 u=root |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-12 14:46:49,181 p=9262 u=root |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-12 14:46:49,961 p=9262 u=root |  fatal: [master2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:46:50,031 p=9262 u=root |  fatal: [master1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:46:50,032 p=9262 u=root |  fatal: [infra2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:46:50,032 p=9262 u=root |  fatal: [master3.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:46:50,033 p=9262 u=root |  fatal: [infra1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:46:50,148 p=9262 u=root |  fatal: [infra3.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:46:50,163 p=9262 u=root |  fatal: [app1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:46:50,180 p=9262 u=root |  fatal: [app2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-12 14:46:50,184 p=9262 u=root |  	to retry, use: --limit @/home/vagrant/install-run/cluster-pre/pre-install.retry
+
+2019-11-12 14:46:50,185 p=9262 u=root |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-12 14:46:50,185 p=9262 u=root |  app1.lab.example.com       : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:50,186 p=9262 u=root |  app2.lab.example.com       : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:50,186 p=9262 u=root |  infra1.lab.example.com     : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:50,186 p=9262 u=root |  infra2.lab.example.com     : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:50,187 p=9262 u=root |  infra3.lab.example.com     : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:50,187 p=9262 u=root |  master1.lab.example.com    : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:50,188 p=9262 u=root |  master2.lab.example.com    : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:46:50,188 p=9262 u=root |  master3.lab.example.com    : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-12 14:47:29,447 p=9297 u=root |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-12 14:47:29,463 p=9297 u=root |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-12 14:47:31,917 p=9297 u=root |  ok: [master1.lab.example.com]
+2019-11-12 14:47:32,082 p=9297 u=root |  ok: [master2.lab.example.com]
+2019-11-12 14:47:32,163 p=9297 u=root |  ok: [infra1.lab.example.com]
+2019-11-12 14:47:32,179 p=9297 u=root |  ok: [infra2.lab.example.com]
+2019-11-12 14:47:32,224 p=9297 u=root |  ok: [master3.lab.example.com]
+2019-11-12 14:47:33,533 p=9297 u=root |  ok: [infra3.lab.example.com]
+2019-11-12 14:47:33,653 p=9297 u=root |  ok: [app1.lab.example.com]
+2019-11-12 14:47:33,724 p=9297 u=root |  ok: [app2.lab.example.com]
+2019-11-12 14:47:33,737 p=9297 u=root |  TASK [Perform DNS lookup] ***************************************************************************************************************************************************
+2019-11-12 14:47:34,810 p=9297 u=root |  fatal: [infra2.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "classroom.example.com"], "delta": "0:00:00.088893", "end": "2019-11-12 14:47:34.741278", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:47:34.652385", "stderr": "", "stderr_lines": [], "stdout": "Host classroom.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host classroom.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:47:34,834 p=9297 u=root |  fatal: [master1.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "classroom.example.com"], "delta": "0:00:00.068748", "end": "2019-11-12 14:47:34.757064", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:47:34.688316", "stderr": "", "stderr_lines": [], "stdout": "Host classroom.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host classroom.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:47:34,887 p=9297 u=root |  fatal: [master2.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "classroom.example.com"], "delta": "0:00:00.078619", "end": "2019-11-12 14:47:34.776332", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:47:34.697713", "stderr": "", "stderr_lines": [], "stdout": "Host classroom.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host classroom.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:47:34,894 p=9297 u=root |  fatal: [infra1.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "classroom.example.com"], "delta": "0:00:00.077607", "end": "2019-11-12 14:47:34.817766", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:47:34.740159", "stderr": "", "stderr_lines": [], "stdout": "Host classroom.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host classroom.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:47:34,895 p=9297 u=root |  fatal: [master3.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "classroom.example.com"], "delta": "0:00:00.060901", "end": "2019-11-12 14:47:34.845518", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:47:34.784617", "stderr": "", "stderr_lines": [], "stdout": "Host classroom.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host classroom.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:47:35,489 p=9297 u=root |  fatal: [infra3.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "classroom.example.com"], "delta": "0:00:00.074397", "end": "2019-11-12 14:47:35.456607", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:47:35.382210", "stderr": "", "stderr_lines": [], "stdout": "Host classroom.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host classroom.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:47:35,495 p=9297 u=root |  fatal: [app2.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "classroom.example.com"], "delta": "0:00:00.070105", "end": "2019-11-12 14:47:35.456591", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:47:35.386486", "stderr": "", "stderr_lines": [], "stdout": "Host classroom.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host classroom.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:47:35,496 p=9297 u=root |  fatal: [app1.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "classroom.example.com"], "delta": "0:00:00.059159", "end": "2019-11-12 14:47:35.455891", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:47:35.396732", "stderr": "", "stderr_lines": [], "stdout": "Host classroom.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host classroom.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:47:35,500 p=9297 u=root |  	to retry, use: --limit @/home/vagrant/install-run/cluster-pre/pre-install.retry
+
+2019-11-12 14:47:35,500 p=9297 u=root |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-12 14:47:35,501 p=9297 u=root |  app1.lab.example.com       : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:47:35,501 p=9297 u=root |  app2.lab.example.com       : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:47:35,502 p=9297 u=root |  infra1.lab.example.com     : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:47:35,502 p=9297 u=root |  infra2.lab.example.com     : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:47:35,503 p=9297 u=root |  infra3.lab.example.com     : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:47:35,503 p=9297 u=root |  master1.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:47:35,504 p=9297 u=root |  master2.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:47:35,504 p=9297 u=root |  master3.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:48:53,532 p=9569 u=root |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-12 14:48:53,548 p=9569 u=root |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-12 14:48:56,125 p=9569 u=root |  ok: [master1.lab.example.com]
+2019-11-12 14:48:56,150 p=9569 u=root |  ok: [infra1.lab.example.com]
+2019-11-12 14:48:56,185 p=9569 u=root |  ok: [infra2.lab.example.com]
+2019-11-12 14:48:56,195 p=9569 u=root |  ok: [master2.lab.example.com]
+2019-11-12 14:48:56,195 p=9569 u=root |  ok: [master3.lab.example.com]
+2019-11-12 14:48:57,570 p=9569 u=root |  ok: [app1.lab.example.com]
+2019-11-12 14:48:57,606 p=9569 u=root |  ok: [app2.lab.example.com]
+2019-11-12 14:48:57,614 p=9569 u=root |  ok: [infra3.lab.example.com]
+2019-11-12 14:48:57,626 p=9569 u=root |  TASK [Perform DNS lookup] ***************************************************************************************************************************************************
+2019-11-12 14:48:58,967 p=9569 u=root |  fatal: [master2.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.example.com"], "delta": "0:00:00.354585", "end": "2019-11-12 14:48:58.916405", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:48:58.561820", "stderr": "", "stderr_lines": [], "stdout": "Host console.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:48:58,998 p=9569 u=root |  fatal: [infra2.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.example.com"], "delta": "0:00:00.325096", "end": "2019-11-12 14:48:58.920070", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:48:58.594974", "stderr": "", "stderr_lines": [], "stdout": "Host console.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:48:59,036 p=9569 u=root |  fatal: [master3.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.example.com"], "delta": "0:00:00.372758", "end": "2019-11-12 14:48:58.926124", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:48:58.553366", "stderr": "", "stderr_lines": [], "stdout": "Host console.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:48:59,049 p=9569 u=root |  fatal: [master1.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.example.com"], "delta": "0:00:00.365564", "end": "2019-11-12 14:48:58.947651", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:48:58.582087", "stderr": "", "stderr_lines": [], "stdout": "Host console.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:48:59,050 p=9569 u=root |  fatal: [infra1.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.example.com"], "delta": "0:00:00.307272", "end": "2019-11-12 14:48:58.923202", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:48:58.615930", "stderr": "", "stderr_lines": [], "stdout": "Host console.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:48:59,567 p=9569 u=root |  fatal: [infra3.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.example.com"], "delta": "0:00:00.018042", "end": "2019-11-12 14:48:59.527245", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:48:59.509203", "stderr": "", "stderr_lines": [], "stdout": "Host console.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:48:59,579 p=9569 u=root |  fatal: [app1.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.example.com"], "delta": "0:00:00.021266", "end": "2019-11-12 14:48:59.542694", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:48:59.521428", "stderr": "", "stderr_lines": [], "stdout": "Host console.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:48:59,595 p=9569 u=root |  fatal: [app2.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.example.com"], "delta": "0:00:00.020962", "end": "2019-11-12 14:48:59.559766", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:48:59.538804", "stderr": "", "stderr_lines": [], "stdout": "Host console.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:48:59,599 p=9569 u=root |  	to retry, use: --limit @/home/vagrant/install-run/cluster-pre/pre-install.retry
+
+2019-11-12 14:48:59,600 p=9569 u=root |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-12 14:48:59,600 p=9569 u=root |  app1.lab.example.com       : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:48:59,601 p=9569 u=root |  app2.lab.example.com       : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:48:59,601 p=9569 u=root |  infra1.lab.example.com     : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:48:59,602 p=9569 u=root |  infra2.lab.example.com     : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:48:59,602 p=9569 u=root |  infra3.lab.example.com     : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:48:59,602 p=9569 u=root |  master1.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:48:59,603 p=9569 u=root |  master2.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:48:59,603 p=9569 u=root |  master3.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:49:53,007 p=9841 u=root |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-12 14:49:53,024 p=9841 u=root |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-12 14:49:54,940 p=9841 u=root |  ok: [master1.lab.example.com]
+2019-11-12 14:49:55,001 p=9841 u=root |  ok: [infra1.lab.example.com]
+2019-11-12 14:49:55,031 p=9841 u=root |  ok: [master3.lab.example.com]
+2019-11-12 14:49:55,032 p=9841 u=root |  ok: [infra2.lab.example.com]
+2019-11-12 14:49:55,045 p=9841 u=root |  ok: [master2.lab.example.com]
+2019-11-12 14:49:56,010 p=9841 u=root |  ok: [app1.lab.example.com]
+2019-11-12 14:49:56,017 p=9841 u=root |  ok: [app2.lab.example.com]
+2019-11-12 14:49:56,026 p=9841 u=root |  ok: [infra3.lab.example.com]
+2019-11-12 14:49:56,044 p=9841 u=root |  TASK [Perform DNS lookup] ***************************************************************************************************************************************************
+2019-11-12 14:49:57,099 p=9841 u=root |  fatal: [master3.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.lab.example.com"], "delta": "0:00:00.052227", "end": "2019-11-12 14:49:56.994500", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:49:56.942273", "stderr": "", "stderr_lines": [], "stdout": "Host console.lab.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.lab.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:49:57,167 p=9841 u=root |  fatal: [master2.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.lab.example.com"], "delta": "0:00:00.022833", "end": "2019-11-12 14:49:57.041828", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:49:57.018995", "stderr": "", "stderr_lines": [], "stdout": "Host console.lab.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.lab.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:49:57,168 p=9841 u=root |  fatal: [master1.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.lab.example.com"], "delta": "0:00:00.031779", "end": "2019-11-12 14:49:57.049673", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:49:57.017894", "stderr": "", "stderr_lines": [], "stdout": "Host console.lab.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.lab.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:49:57,169 p=9841 u=root |  fatal: [infra1.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.lab.example.com"], "delta": "0:00:00.028993", "end": "2019-11-12 14:49:57.045242", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:49:57.016249", "stderr": "", "stderr_lines": [], "stdout": "Host console.lab.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.lab.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:49:57,170 p=9841 u=root |  fatal: [infra2.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.lab.example.com"], "delta": "0:00:00.036111", "end": "2019-11-12 14:49:57.078807", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:49:57.042696", "stderr": "", "stderr_lines": [], "stdout": "Host console.lab.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.lab.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:49:57,655 p=9841 u=root |  fatal: [infra3.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.lab.example.com"], "delta": "0:00:00.016852", "end": "2019-11-12 14:49:57.622927", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:49:57.606075", "stderr": "", "stderr_lines": [], "stdout": "Host console.lab.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.lab.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:49:57,683 p=9841 u=root |  fatal: [app1.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.lab.example.com"], "delta": "0:00:00.017494", "end": "2019-11-12 14:49:57.648019", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:49:57.630525", "stderr": "", "stderr_lines": [], "stdout": "Host console.lab.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.lab.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:49:57,717 p=9841 u=root |  fatal: [app2.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "console.lab.example.com"], "delta": "0:00:00.019992", "end": "2019-11-12 14:49:57.681046", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:49:57.661054", "stderr": "", "stderr_lines": [], "stdout": "Host console.lab.example.com not found: 3(NXDOMAIN)", "stdout_lines": ["Host console.lab.example.com not found: 3(NXDOMAIN)"]}
+2019-11-12 14:49:57,720 p=9841 u=root |  	to retry, use: --limit @/home/vagrant/install-run/cluster-pre/pre-install.retry
+
+2019-11-12 14:49:57,721 p=9841 u=root |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-12 14:49:57,721 p=9841 u=root |  app1.lab.example.com       : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:49:57,721 p=9841 u=root |  app2.lab.example.com       : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:49:57,722 p=9841 u=root |  infra1.lab.example.com     : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:49:57,722 p=9841 u=root |  infra2.lab.example.com     : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:49:57,722 p=9841 u=root |  infra3.lab.example.com     : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:49:57,722 p=9841 u=root |  master1.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:49:57,723 p=9841 u=root |  master2.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:49:57,723 p=9841 u=root |  master3.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:54:55,685 p=10102 u=root |  ERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/home/vagrant/install-run/cluster-pre/pre-install.yml': line 17, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+    - name: Performing DNS reverse lookup
+    ^ here
+
+exception type: <class 'yaml.parser.ParserError'>
+exception: while parsing a block mapping
+  in "<unicode string>", line 5, column 5
+did not find expected key
+  in "<unicode string>", line 17, column 5
+2019-11-12 14:55:39,537 p=10129 u=root |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-12 14:55:39,554 p=10129 u=root |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-12 14:55:41,958 p=10129 u=root |  ok: [infra1.lab.example.com]
+2019-11-12 14:55:42,029 p=10129 u=root |  ok: [master2.lab.example.com]
+2019-11-12 14:55:42,086 p=10129 u=root |  ok: [master3.lab.example.com]
+2019-11-12 14:55:42,154 p=10129 u=root |  ok: [master1.lab.example.com]
+2019-11-12 14:55:42,160 p=10129 u=root |  ok: [infra2.lab.example.com]
+2019-11-12 14:55:43,476 p=10129 u=root |  ok: [infra3.lab.example.com]
+2019-11-12 14:55:43,536 p=10129 u=root |  ok: [app1.lab.example.com]
+2019-11-12 14:55:43,591 p=10129 u=root |  ok: [app2.lab.example.com]
+2019-11-12 14:55:43,603 p=10129 u=root |  TASK [Performing DNS reverse lookup] ****************************************************************************************************************************************
+2019-11-12 14:55:44,680 p=10129 u=root |  fatal: [master2.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "172.25.240.10"], "delta": "0:00:00.082354", "end": "2019-11-12 14:55:44.628004", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:55:44.545650", "stderr": "", "stderr_lines": [], "stdout": "Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)", "stdout_lines": ["Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)"]}
+2019-11-12 14:55:44,733 p=10129 u=root |  fatal: [master3.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "172.25.240.10"], "delta": "0:00:00.078005", "end": "2019-11-12 14:55:44.632285", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:55:44.554280", "stderr": "", "stderr_lines": [], "stdout": "Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)", "stdout_lines": ["Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)"]}
+2019-11-12 14:55:44,734 p=10129 u=root |  fatal: [master1.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "172.25.240.10"], "delta": "0:00:00.049476", "end": "2019-11-12 14:55:44.629241", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:55:44.579765", "stderr": "", "stderr_lines": [], "stdout": "Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)", "stdout_lines": ["Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)"]}
+2019-11-12 14:55:44,735 p=10129 u=root |  fatal: [infra1.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "172.25.240.10"], "delta": "0:00:00.058299", "end": "2019-11-12 14:55:44.627988", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:55:44.569689", "stderr": "", "stderr_lines": [], "stdout": "Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)", "stdout_lines": ["Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)"]}
+2019-11-12 14:55:44,736 p=10129 u=root |  fatal: [infra2.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "172.25.240.10"], "delta": "0:00:00.062288", "end": "2019-11-12 14:55:44.632029", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:55:44.569741", "stderr": "", "stderr_lines": [], "stdout": "Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)", "stdout_lines": ["Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)"]}
+2019-11-12 14:55:45,368 p=10129 u=root |  fatal: [app2.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "172.25.240.10"], "delta": "0:00:00.071157", "end": "2019-11-12 14:55:45.330480", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:55:45.259323", "stderr": "", "stderr_lines": [], "stdout": "Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)", "stdout_lines": ["Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)"]}
+2019-11-12 14:55:45,370 p=10129 u=root |  fatal: [infra3.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "172.25.240.10"], "delta": "0:00:00.072124", "end": "2019-11-12 14:55:45.332866", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:55:45.260742", "stderr": "", "stderr_lines": [], "stdout": "Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)", "stdout_lines": ["Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)"]}
+2019-11-12 14:55:45,372 p=10129 u=root |  fatal: [app1.lab.example.com]: FAILED! => {"changed": true, "cmd": ["host", "172.25.240.10"], "delta": "0:00:00.087522", "end": "2019-11-12 14:55:45.330725", "failed": true, "msg": "non-zero return code", "rc": 1, "start": "2019-11-12 14:55:45.243203", "stderr": "", "stderr_lines": [], "stdout": "Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)", "stdout_lines": ["Host 10.240.25.172.in-addr.arpa. not found: 3(NXDOMAIN)"]}
+2019-11-12 14:55:45,375 p=10129 u=root |  	to retry, use: --limit @/home/vagrant/install-run/cluster-pre/pre-install.retry
+
+2019-11-12 14:55:45,375 p=10129 u=root |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-12 14:55:45,375 p=10129 u=root |  app1.lab.example.com       : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:55:45,375 p=10129 u=root |  app2.lab.example.com       : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:55:45,376 p=10129 u=root |  infra1.lab.example.com     : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:55:45,376 p=10129 u=root |  infra2.lab.example.com     : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:55:45,376 p=10129 u=root |  infra3.lab.example.com     : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:55:45,376 p=10129 u=root |  master1.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:55:45,376 p=10129 u=root |  master2.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:55:45,376 p=10129 u=root |  master3.lab.example.com    : ok=1    changed=0    unreachable=0    failed=1   
+2019-11-12 14:58:18,044 p=10406 u=root |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-12 14:58:18,060 p=10406 u=root |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-12 14:58:20,597 p=10406 u=root |  ok: [infra2.lab.example.com]
+2019-11-12 14:58:20,799 p=10406 u=root |  ok: [master1.lab.example.com]
+2019-11-12 14:58:20,815 p=10406 u=root |  ok: [master2.lab.example.com]
+2019-11-12 14:58:20,817 p=10406 u=root |  ok: [infra1.lab.example.com]
+2019-11-12 14:58:20,829 p=10406 u=root |  ok: [master3.lab.example.com]
+2019-11-12 14:58:22,130 p=10406 u=root |  ok: [infra3.lab.example.com]
+2019-11-12 14:58:22,237 p=10406 u=root |  ok: [app1.lab.example.com]
+2019-11-12 14:58:22,279 p=10406 u=root |  ok: [app2.lab.example.com]
+2019-11-12 14:58:22,291 p=10406 u=root |  TASK [Enable SELinux in Enforcing Mode] *************************************************************************************************************************************
+2019-11-12 14:58:23,811 p=10406 u=root |  ok: [master1.lab.example.com]
+2019-11-12 14:58:23,866 p=10406 u=root |  ok: [master3.lab.example.com]
+2019-11-12 14:58:23,914 p=10406 u=root |  ok: [infra1.lab.example.com]
+2019-11-12 14:58:23,928 p=10406 u=root |  ok: [master2.lab.example.com]
+2019-11-12 14:58:23,974 p=10406 u=root |  ok: [infra2.lab.example.com]
+2019-11-12 14:58:24,526 p=10406 u=root |  ok: [infra3.lab.example.com]
+2019-11-12 14:58:24,563 p=10406 u=root |  ok: [app1.lab.example.com]
+2019-11-12 14:58:24,598 p=10406 u=root |  ok: [app2.lab.example.com]
+2019-11-12 14:58:24,613 p=10406 u=root |  TASK [Ensuring NetworkManager is enabled and running] ***********************************************************************************************************************
+2019-11-12 14:58:26,567 p=10406 u=root |  ok: [master3.lab.example.com]
+2019-11-12 14:58:26,641 p=10406 u=root |  ok: [infra1.lab.example.com]
+2019-11-12 14:58:26,642 p=10406 u=root |  ok: [master1.lab.example.com]
+2019-11-12 14:58:26,643 p=10406 u=root |  ok: [master2.lab.example.com]
+2019-11-12 14:58:26,654 p=10406 u=root |  ok: [infra2.lab.example.com]
+2019-11-12 14:58:27,780 p=10406 u=root |  ok: [app2.lab.example.com]
+2019-11-12 14:58:27,805 p=10406 u=root |  ok: [app1.lab.example.com]
+2019-11-12 14:58:27,815 p=10406 u=root |  ok: [infra3.lab.example.com]
+2019-11-12 14:58:27,830 p=10406 u=root |  TASK [Checking Fast datapath Yum repositories] ******************************************************************************************************************************
+2019-11-12 14:58:28,065 p=10406 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: 	/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo
+2019-11-12 14:58:28,066 p=10406 u=root |  fatal: [master1.lab.example.com]: FAILED! => {"changed": false, "failed": true, "msg": "Could not find or access 'rhel7-fast-datapath-rpms.repo'\nSearched in:\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo"}
+2019-11-12 14:58:28,067 p=10406 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: 	/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo
+2019-11-12 14:58:28,067 p=10406 u=root |  fatal: [master3.lab.example.com]: FAILED! => {"changed": false, "failed": true, "msg": "Could not find or access 'rhel7-fast-datapath-rpms.repo'\nSearched in:\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo"}
+2019-11-12 14:58:28,068 p=10406 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: 	/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo
+2019-11-12 14:58:28,068 p=10406 u=root |  fatal: [master2.lab.example.com]: FAILED! => {"changed": false, "failed": true, "msg": "Could not find or access 'rhel7-fast-datapath-rpms.repo'\nSearched in:\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo"}
+2019-11-12 14:58:28,068 p=10406 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: 	/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo
+2019-11-12 14:58:28,069 p=10406 u=root |  fatal: [infra1.lab.example.com]: FAILED! => {"changed": false, "failed": true, "msg": "Could not find or access 'rhel7-fast-datapath-rpms.repo'\nSearched in:\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo"}
+2019-11-12 14:58:28,069 p=10406 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: 	/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo
+2019-11-12 14:58:28,070 p=10406 u=root |  fatal: [infra3.lab.example.com]: FAILED! => {"changed": false, "failed": true, "msg": "Could not find or access 'rhel7-fast-datapath-rpms.repo'\nSearched in:\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo"}
+2019-11-12 14:58:28,082 p=10406 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: 	/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo
+2019-11-12 14:58:28,082 p=10406 u=root |  fatal: [infra2.lab.example.com]: FAILED! => {"changed": false, "failed": true, "msg": "Could not find or access 'rhel7-fast-datapath-rpms.repo'\nSearched in:\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo"}
+2019-11-12 14:58:28,083 p=10406 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: 	/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo
+2019-11-12 14:58:28,083 p=10406 u=root |  fatal: [app1.lab.example.com]: FAILED! => {"changed": false, "failed": true, "msg": "Could not find or access 'rhel7-fast-datapath-rpms.repo'\nSearched in:\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo"}
+2019-11-12 14:58:28,119 p=10406 u=root |  An exception occurred during task execution. To see the full traceback, use -vvv. The error was: 	/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo
+2019-11-12 14:58:28,120 p=10406 u=root |  fatal: [app2.lab.example.com]: FAILED! => {"changed": false, "failed": true, "msg": "Could not find or access 'rhel7-fast-datapath-rpms.repo'\nSearched in:\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/files/rhel7-fast-datapath-rpms.repo\n\t/home/vagrant/install-run/cluster-pre/rhel7-fast-datapath-rpms.repo"}
+2019-11-12 14:58:28,125 p=10406 u=root |  	to retry, use: --limit @/home/vagrant/install-run/cluster-pre/pre-install.retry
+
+2019-11-12 14:58:28,126 p=10406 u=root |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-12 14:58:28,126 p=10406 u=root |  app1.lab.example.com       : ok=3    changed=0    unreachable=0    failed=1   
+2019-11-12 14:58:28,127 p=10406 u=root |  app2.lab.example.com       : ok=3    changed=0    unreachable=0    failed=1   
+2019-11-12 14:58:28,127 p=10406 u=root |  infra1.lab.example.com     : ok=3    changed=0    unreachable=0    failed=1   
+2019-11-12 14:58:28,127 p=10406 u=root |  infra2.lab.example.com     : ok=3    changed=0    unreachable=0    failed=1   
+2019-11-12 14:58:28,128 p=10406 u=root |  infra3.lab.example.com     : ok=3    changed=0    unreachable=0    failed=1   
+2019-11-12 14:58:28,128 p=10406 u=root |  master1.lab.example.com    : ok=3    changed=0    unreachable=0    failed=1   
+2019-11-12 14:58:28,128 p=10406 u=root |  master2.lab.example.com    : ok=3    changed=0    unreachable=0    failed=1   
+2019-11-12 14:58:28,129 p=10406 u=root |  master3.lab.example.com    : ok=3    changed=0    unreachable=0    failed=1   
+2019-11-12 14:59:17,658 p=10893 u=root |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-12 14:59:17,674 p=10893 u=root |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-12 14:59:19,534 p=10893 u=root |  ok: [master1.lab.example.com]
+2019-11-12 14:59:19,556 p=10893 u=root |  ok: [master2.lab.example.com]
+2019-11-12 14:59:19,608 p=10893 u=root |  ok: [infra2.lab.example.com]
+2019-11-12 14:59:19,609 p=10893 u=root |  ok: [infra1.lab.example.com]
+2019-11-12 14:59:20,545 p=10893 u=root |  ok: [master3.lab.example.com]
+2019-11-12 14:59:20,573 p=10893 u=root |  ok: [app1.lab.example.com]
+2019-11-12 14:59:20,586 p=10893 u=root |  ok: [app2.lab.example.com]
+2019-11-12 14:59:20,597 p=10893 u=root |  ok: [infra3.lab.example.com]
+2019-11-12 14:59:20,612 p=10893 u=root |  TASK [Enable SELinux in Enforcing Mode] *************************************************************************************************************************************
+2019-11-12 14:59:22,066 p=10893 u=root |  ok: [master1.lab.example.com]
+2019-11-12 14:59:22,094 p=10893 u=root |  ok: [master3.lab.example.com]
+2019-11-12 14:59:22,155 p=10893 u=root |  ok: [infra2.lab.example.com]
+2019-11-12 14:59:22,170 p=10893 u=root |  ok: [infra1.lab.example.com]
+2019-11-12 14:59:22,234 p=10893 u=root |  ok: [master2.lab.example.com]
+2019-11-12 14:59:22,758 p=10893 u=root |  ok: [infra3.lab.example.com]
+2019-11-12 14:59:22,818 p=10893 u=root |  ok: [app1.lab.example.com]
+2019-11-12 14:59:22,841 p=10893 u=root |  ok: [app2.lab.example.com]
+2019-11-12 14:59:22,859 p=10893 u=root |  TASK [Ensuring NetworkManager is enabled and running] ***********************************************************************************************************************
+2019-11-12 14:59:24,723 p=10893 u=root |  ok: [master3.lab.example.com]
+2019-11-12 14:59:24,818 p=10893 u=root |  ok: [master2.lab.example.com]
+2019-11-12 14:59:24,819 p=10893 u=root |  ok: [infra2.lab.example.com]
+2019-11-12 14:59:24,819 p=10893 u=root |  ok: [infra1.lab.example.com]
+2019-11-12 14:59:24,820 p=10893 u=root |  ok: [master1.lab.example.com]
+2019-11-12 14:59:25,921 p=10893 u=root |  ok: [infra3.lab.example.com]
+2019-11-12 14:59:26,019 p=10893 u=root |  ok: [app1.lab.example.com]
+2019-11-12 14:59:26,021 p=10893 u=root |  ok: [app2.lab.example.com]
+2019-11-12 14:59:26,035 p=10893 u=root |  TASK [Upgrade all packages] *************************************************************************************************************************************************
+2019-11-12 15:19:57,465 p=10893 u=root |  changed: [master3.lab.example.com]
+2019-11-12 15:20:08,359 p=10893 u=root |  changed: [master2.lab.example.com]
+2019-11-12 15:20:10,114 p=10893 u=root |  changed: [infra2.lab.example.com]
+2019-11-12 15:20:19,258 p=10893 u=root |  changed: [master1.lab.example.com]
+2019-11-12 15:20:23,026 p=10893 u=root |  changed: [infra1.lab.example.com]
+2019-11-12 15:32:26,863 p=10893 u=root |  changed: [infra3.lab.example.com]
+2019-11-12 15:33:00,001 p=10893 u=root |  changed: [app1.lab.example.com]
+2019-11-12 15:33:00,207 p=10893 u=root |  changed: [app2.lab.example.com]
+2019-11-12 15:33:00,215 p=10893 u=root |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-12 15:33:00,215 p=10893 u=root |  app1.lab.example.com       : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-12 15:33:00,216 p=10893 u=root |  app2.lab.example.com       : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-12 15:33:00,216 p=10893 u=root |  infra1.lab.example.com     : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-12 15:33:00,217 p=10893 u=root |  infra2.lab.example.com     : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-12 15:33:00,217 p=10893 u=root |  infra3.lab.example.com     : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-12 15:33:00,218 p=10893 u=root |  master1.lab.example.com    : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-12 15:33:00,218 p=10893 u=root |  master2.lab.example.com    : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-12 15:33:00,218 p=10893 u=root |  master3.lab.example.com    : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-13 10:58:21,387 p=12178 u=vagrant |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-13 10:58:21,404 p=12178 u=vagrant |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-13 10:58:22,161 p=12178 u=vagrant |  fatal: [master1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-13 10:58:22,211 p=12178 u=vagrant |  fatal: [master3.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-13 10:58:22,212 p=12178 u=vagrant |  fatal: [master2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-13 10:58:22,217 p=12178 u=vagrant |  fatal: [infra1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-13 10:58:22,238 p=12178 u=vagrant |  fatal: [infra2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-13 10:58:22,392 p=12178 u=vagrant |  fatal: [infra3.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-13 10:58:22,414 p=12178 u=vagrant |  fatal: [app1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-13 10:58:22,434 p=12178 u=vagrant |  fatal: [app2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n", "unreachable": true}
+2019-11-13 10:58:22,438 p=12178 u=vagrant |   [WARNING]: Could not create retry file '/home/vagrant/install-run/cluster-pre/pre-install.retry'.         [Errno 13] Permission denied: u'/home/vagrant/install-run
+/cluster-pre/pre-install.retry'
+
+2019-11-13 10:58:22,439 p=12178 u=vagrant |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-13 10:58:22,439 p=12178 u=vagrant |  app1.lab.example.com       : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-13 10:58:22,439 p=12178 u=vagrant |  app2.lab.example.com       : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-13 10:58:22,440 p=12178 u=vagrant |  infra1.lab.example.com     : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-13 10:58:22,440 p=12178 u=vagrant |  infra2.lab.example.com     : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-13 10:58:22,440 p=12178 u=vagrant |  infra3.lab.example.com     : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-13 10:58:22,441 p=12178 u=vagrant |  master1.lab.example.com    : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-13 10:58:22,441 p=12178 u=vagrant |  master2.lab.example.com    : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-13 10:58:22,441 p=12178 u=vagrant |  master3.lab.example.com    : ok=0    changed=0    unreachable=1    failed=0   
+2019-11-13 10:58:32,700 p=12212 u=vagrant |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-13 10:58:32,715 p=12212 u=vagrant |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-13 10:58:38,511 p=12212 u=vagrant |  fatal: [master3.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Authentication failure.", "unreachable": true}
+2019-11-13 10:58:38,544 p=12212 u=vagrant |  fatal: [master2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Authentication failure.", "unreachable": true}
+2019-11-13 10:58:38,575 p=12212 u=vagrant |  fatal: [infra1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Authentication failure.", "unreachable": true}
+2019-11-13 10:58:38,576 p=12212 u=vagrant |  fatal: [master1.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Authentication failure.", "unreachable": true}
+2019-11-13 10:58:38,600 p=12212 u=vagrant |  fatal: [infra2.lab.example.com]: UNREACHABLE! => {"changed": false, "msg": "Authentication failure.", "unreachable": true}
+2019-11-13 10:58:39,780 p=12212 u=vagrant |   [ERROR]: User interrupted execution
+
+2019-11-13 10:58:43,903 p=12268 u=vagrant |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-13 10:58:43,919 p=12268 u=vagrant |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-13 10:58:46,505 p=12268 u=vagrant |  ok: [master3.lab.example.com]
+2019-11-13 10:58:46,584 p=12268 u=vagrant |  ok: [master2.lab.example.com]
+2019-11-13 10:58:46,617 p=12268 u=vagrant |  ok: [master1.lab.example.com]
+2019-11-13 10:58:46,617 p=12268 u=vagrant |  ok: [infra2.lab.example.com]
+2019-11-13 10:58:46,629 p=12268 u=vagrant |  ok: [infra1.lab.example.com]
+2019-11-13 10:58:48,149 p=12268 u=vagrant |  ok: [infra3.lab.example.com]
+2019-11-13 10:58:48,160 p=12268 u=vagrant |  ok: [app1.lab.example.com]
+2019-11-13 10:58:48,172 p=12268 u=vagrant |  ok: [app2.lab.example.com]
+2019-11-13 10:58:48,186 p=12268 u=vagrant |  TASK [Enable SELinux in Enforcing Mode] *************************************************************************************************************************************
+2019-11-13 10:58:49,663 p=12268 u=vagrant |  ok: [infra1.lab.example.com]
+2019-11-13 10:58:49,712 p=12268 u=vagrant |  ok: [master3.lab.example.com]
+2019-11-13 10:58:49,754 p=12268 u=vagrant |  ok: [master1.lab.example.com]
+2019-11-13 10:58:49,759 p=12268 u=vagrant |  ok: [infra2.lab.example.com]
+2019-11-13 10:58:49,760 p=12268 u=vagrant |  ok: [master2.lab.example.com]
+2019-11-13 10:58:50,339 p=12268 u=vagrant |  ok: [infra3.lab.example.com]
+2019-11-13 10:58:50,398 p=12268 u=vagrant |  ok: [app1.lab.example.com]
+2019-11-13 10:58:50,420 p=12268 u=vagrant |  ok: [app2.lab.example.com]
+2019-11-13 10:58:50,434 p=12268 u=vagrant |  TASK [Ensuring NetworkManager is enabled and running] ***********************************************************************************************************************
+2019-11-13 10:58:52,328 p=12268 u=vagrant |  ok: [master3.lab.example.com]
+2019-11-13 10:58:52,358 p=12268 u=vagrant |  ok: [infra1.lab.example.com]
+2019-11-13 10:58:52,409 p=12268 u=vagrant |  ok: [master1.lab.example.com]
+2019-11-13 10:58:52,422 p=12268 u=vagrant |  ok: [master2.lab.example.com]
+2019-11-13 10:58:52,422 p=12268 u=vagrant |  ok: [infra2.lab.example.com]
+2019-11-13 10:58:53,585 p=12268 u=vagrant |  ok: [infra3.lab.example.com]
+2019-11-13 10:58:53,586 p=12268 u=vagrant |  ok: [app1.lab.example.com]
+2019-11-13 10:58:53,587 p=12268 u=vagrant |  ok: [app2.lab.example.com]
+2019-11-13 10:58:53,603 p=12268 u=vagrant |  TASK [Upgrade all packages] *************************************************************************************************************************************************
+2019-11-13 11:04:29,571 p=12268 u=vagrant |  changed: [master3.lab.example.com]
+2019-11-13 11:04:48,807 p=12268 u=vagrant |  changed: [master2.lab.example.com]
+2019-11-13 11:06:35,911 p=12268 u=vagrant |  changed: [infra2.lab.example.com]
+2019-11-13 11:07:27,768 p=12268 u=vagrant |  changed: [master1.lab.example.com]
+2019-11-13 11:07:30,845 p=12268 u=vagrant |  changed: [infra1.lab.example.com]
+2019-11-13 11:09:35,516 p=12268 u=vagrant |  changed: [infra3.lab.example.com]
+2019-11-13 11:09:58,907 p=12268 u=vagrant |  changed: [app1.lab.example.com]
+2019-11-13 11:11:03,678 p=12268 u=vagrant |  changed: [app2.lab.example.com]
+2019-11-13 11:11:03,685 p=12268 u=vagrant |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-13 11:11:03,686 p=12268 u=vagrant |  app1.lab.example.com       : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-13 11:11:03,686 p=12268 u=vagrant |  app2.lab.example.com       : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-13 11:11:03,686 p=12268 u=vagrant |  infra1.lab.example.com     : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-13 11:11:03,687 p=12268 u=vagrant |  infra2.lab.example.com     : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-13 11:11:03,687 p=12268 u=vagrant |  infra3.lab.example.com     : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-13 11:11:03,687 p=12268 u=vagrant |  master1.lab.example.com    : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-13 11:11:03,688 p=12268 u=vagrant |  master2.lab.example.com    : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-13 11:11:03,688 p=12268 u=vagrant |  master3.lab.example.com    : ok=4    changed=1    unreachable=0    failed=0   
+2019-11-13 11:37:45,859 p=12877 u=vagrant |  PLAY [etcd] *****************************************************************************************************************************************************************
+2019-11-13 11:37:45,875 p=12877 u=vagrant |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-13 11:37:47,888 p=12877 u=vagrant |  ok: [master1.lab.example.com]
+2019-11-13 11:37:47,920 p=12877 u=vagrant |  ok: [master3.lab.example.com]
+2019-11-13 11:37:47,970 p=12877 u=vagrant |  ok: [master2.lab.example.com]
+2019-11-13 11:37:47,984 p=12877 u=vagrant |  TASK [Enable SELinux in Enforcing Mode] *************************************************************************************************************************************
+2019-11-13 11:37:49,135 p=12877 u=vagrant |  ok: [master1.lab.example.com]
+2019-11-13 11:37:49,142 p=12877 u=vagrant |  ok: [master2.lab.example.com]
+2019-11-13 11:37:49,144 p=12877 u=vagrant |  ok: [master3.lab.example.com]
+2019-11-13 11:37:49,159 p=12877 u=vagrant |  TASK [Ensuring NetworkManager is enabled and running] ***********************************************************************************************************************
+2019-11-13 11:37:50,567 p=12877 u=vagrant |  ok: [master2.lab.example.com]
+2019-11-13 11:37:50,570 p=12877 u=vagrant |  ok: [master1.lab.example.com]
+2019-11-13 11:37:50,576 p=12877 u=vagrant |  ok: [master3.lab.example.com]
+2019-11-13 11:37:50,587 p=12877 u=vagrant |  TASK [Upgrade all packages] *************************************************************************************************************************************************
+2019-11-13 11:38:08,779 p=12877 u=vagrant |  ok: [master3.lab.example.com]
+2019-11-13 11:38:09,143 p=12877 u=vagrant |  ok: [master2.lab.example.com]
+2019-11-13 11:38:09,317 p=12877 u=vagrant |  ok: [master1.lab.example.com]
+2019-11-13 11:38:09,322 p=12877 u=vagrant |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-13 11:38:09,322 p=12877 u=vagrant |  master1.lab.example.com    : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 11:38:09,322 p=12877 u=vagrant |  master2.lab.example.com    : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 11:38:09,322 p=12877 u=vagrant |  master3.lab.example.com    : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 11:40:51,322 p=13101 u=vagrant |  ansible-playbook 2.4.0.0
+  config file = /home/vagrant/install-run/cluster-pre/ansible.cfg
+  configured module search path = [u'/home/vagrant/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/site-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 2.7.5 (default, May  3 2017, 07:55:04) [GCC 4.8.5 20150623 (Red Hat 4.8.5-14)]
+2019-11-13 11:40:51,322 p=13101 u=vagrant |  Using /home/vagrant/install-run/cluster-pre/ansible.cfg as config file
+2019-11-13 11:40:54,127 p=13101 u=vagrant |  Parsed /home/vagrant/install-run/cluster-pre/hosts-ucf inventory source with ini plugin
+2019-11-13 11:40:54,368 p=13101 u=vagrant |  PLAYBOOK: pre-install.yml ***************************************************************************************************************************************************
+2019-11-13 11:40:54,368 p=13101 u=vagrant |  1 plays in pre-install.yml
+2019-11-13 11:40:54,414 p=13101 u=vagrant |  PLAY [etcd] *****************************************************************************************************************************************************************
+2019-11-13 11:40:54,429 p=13101 u=vagrant |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-13 11:40:54,950 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:40:54,953 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:40:54,963 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:40:56,416 p=13101 u=vagrant |  ok: [master1.lab.example.com]
+2019-11-13 11:40:56,501 p=13101 u=vagrant |  ok: [master2.lab.example.com]
+2019-11-13 11:40:56,519 p=13101 u=vagrant |  ok: [master3.lab.example.com]
+2019-11-13 11:40:56,520 p=13101 u=vagrant |  META: ran handlers
+2019-11-13 11:40:56,533 p=13101 u=vagrant |  TASK [Enable SELinux in Enforcing Mode] *************************************************************************************************************************************
+2019-11-13 11:40:56,533 p=13101 u=vagrant |  task path: /home/vagrant/install-run/cluster-pre/pre-install.yml:30
+2019-11-13 11:40:57,099 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/selinux.py
+2019-11-13 11:40:57,102 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/selinux.py
+2019-11-13 11:40:57,110 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/selinux.py
+2019-11-13 11:40:57,713 p=13101 u=vagrant |  ok: [master3.lab.example.com] => {
+    "changed": false, 
+    "configfile": "/etc/selinux/config", 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "configfile": "/etc/selinux/config", 
+            "policy": "targeted", 
+            "state": "enforcing"
+        }
+    }, 
+    "msg": "", 
+    "policy": "targeted", 
+    "state": "enforcing"
+}
+2019-11-13 11:40:57,719 p=13101 u=vagrant |  ok: [master2.lab.example.com] => {
+    "changed": false, 
+    "configfile": "/etc/selinux/config", 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "configfile": "/etc/selinux/config", 
+            "policy": "targeted", 
+            "state": "enforcing"
+        }
+    }, 
+    "msg": "", 
+    "policy": "targeted", 
+    "state": "enforcing"
+}
+2019-11-13 11:40:57,758 p=13101 u=vagrant |  ok: [master1.lab.example.com] => {
+    "changed": false, 
+    "configfile": "/etc/selinux/config", 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "configfile": "/etc/selinux/config", 
+            "policy": "targeted", 
+            "state": "enforcing"
+        }
+    }, 
+    "msg": "", 
+    "policy": "targeted", 
+    "state": "enforcing"
+}
+2019-11-13 11:40:57,770 p=13101 u=vagrant |  TASK [Ensuring NetworkManager is enabled and running] ***********************************************************************************************************************
+2019-11-13 11:40:57,771 p=13101 u=vagrant |  task path: /home/vagrant/install-run/cluster-pre/pre-install.yml:35
+2019-11-13 11:40:57,825 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:40:57,871 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:40:57,895 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:40:58,660 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/systemd.py
+2019-11-13 11:40:58,664 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/systemd.py
+2019-11-13 11:40:58,671 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/systemd.py
+2019-11-13 11:40:59,162 p=13101 u=vagrant |  ok: [master1.lab.example.com] => {
+    "changed": false, 
+    "enabled": true, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "daemon_reload": false, 
+            "enabled": true, 
+            "masked": null, 
+            "name": "NetworkManager", 
+            "no_block": false, 
+            "state": "started", 
+            "user": false
+        }
+    }, 
+    "name": "NetworkManager", 
+    "state": "started", 
+    "status": {
+        "ActiveEnterTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "ActiveEnterTimestampMonotonic": "23129425", 
+        "ActiveExitTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "ActiveExitTimestampMonotonic": "23070619", 
+        "ActiveState": "active", 
+        "After": "dbus.service systemd-journald.socket network-pre.target system.slice basic.target", 
+        "AllowIsolate": "no", 
+        "AmbientCapabilities": "0", 
+        "AssertResult": "yes", 
+        "AssertTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "AssertTimestampMonotonic": "23095215", 
+        "Before": "shutdown.target NetworkManager-wait-online.service multi-user.target network.target network.service", 
+        "BlockIOAccounting": "no", 
+        "BlockIOWeight": "18446744073709551615", 
+        "BusName": "org.freedesktop.NetworkManager", 
+        "CPUAccounting": "no", 
+        "CPUQuotaPerSecUSec": "infinity", 
+        "CPUSchedulingPolicy": "0", 
+        "CPUSchedulingPriority": "0", 
+        "CPUSchedulingResetOnFork": "no", 
+        "CPUShares": "18446744073709551615", 
+        "CanIsolate": "no", 
+        "CanReload": "yes", 
+        "CanStart": "yes", 
+        "CanStop": "yes", 
+        "CapabilityBoundingSet": "539309282", 
+        "ConditionResult": "yes", 
+        "ConditionTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "ConditionTimestampMonotonic": "23095214", 
+        "Conflicts": "shutdown.target", 
+        "ControlGroup": "/system.slice/NetworkManager.service", 
+        "ControlPID": "0", 
+        "DefaultDependencies": "yes", 
+        "Delegate": "no", 
+        "Description": "Network Manager", 
+        "DevicePolicy": "auto", 
+        "Documentation": "man:NetworkManager(8)", 
+        "ExecMainCode": "0", 
+        "ExecMainExitTimestampMonotonic": "0", 
+        "ExecMainPID": "9234", 
+        "ExecMainStartTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "ExecMainStartTimestampMonotonic": "23095847", 
+        "ExecMainStatus": "0", 
+        "ExecReload": "{ path=/usr/bin/dbus-send ; argv[]=/usr/bin/dbus-send --print-reply --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Reload uint32:0 ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "ExecStart": "{ path=/usr/sbin/NetworkManager ; argv[]=/usr/sbin/NetworkManager --no-daemon ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "FailureAction": "none", 
+        "FileDescriptorStoreMax": "0", 
+        "FragmentPath": "/usr/lib/systemd/system/NetworkManager.service", 
+        "GuessMainPID": "yes", 
+        "IOScheduling": "0", 
+        "Id": "NetworkManager.service", 
+        "IgnoreOnIsolate": "no", 
+        "IgnoreOnSnapshot": "no", 
+        "IgnoreSIGPIPE": "yes", 
+        "InactiveEnterTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "InactiveEnterTimestampMonotonic": "23093988", 
+        "InactiveExitTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "InactiveExitTimestampMonotonic": "23096554", 
+        "JobTimeoutAction": "none", 
+        "JobTimeoutUSec": "0", 
+        "KillMode": "process", 
+        "KillSignal": "15", 
+        "LimitAS": "18446744073709551615", 
+        "LimitCORE": "18446744073709551615", 
+        "LimitCPU": "18446744073709551615", 
+        "LimitDATA": "18446744073709551615", 
+        "LimitFSIZE": "18446744073709551615", 
+        "LimitLOCKS": "18446744073709551615", 
+        "LimitMEMLOCK": "65536", 
+        "LimitMSGQUEUE": "819200", 
+        "LimitNICE": "0", 
+        "LimitNOFILE": "4096", 
+        "LimitNPROC": "7272", 
+        "LimitRSS": "18446744073709551615", 
+        "LimitRTPRIO": "0", 
+        "LimitRTTIME": "18446744073709551615", 
+        "LimitSIGPENDING": "7272", 
+        "LimitSTACK": "18446744073709551615", 
+        "LoadState": "loaded", 
+        "MainPID": "9234", 
+        "MemoryAccounting": "no", 
+        "MemoryCurrent": "18446744073709551615", 
+        "MemoryLimit": "18446744073709551615", 
+        "MountFlags": "0", 
+        "Names": "NetworkManager.service", 
+        "NeedDaemonReload": "no", 
+        "Nice": "0", 
+        "NoNewPrivileges": "no", 
+        "NonBlocking": "no", 
+        "NotifyAccess": "none", 
+        "OOMScoreAdjust": "0", 
+        "OnFailureJobMode": "replace", 
+        "PermissionsStartOnly": "no", 
+        "PrivateDevices": "no", 
+        "PrivateNetwork": "no", 
+        "PrivateTmp": "no", 
+        "ProtectHome": "read-only", 
+        "ProtectSystem": "yes", 
+        "RefuseManualStart": "no", 
+        "RefuseManualStop": "no", 
+        "RemainAfterExit": "no", 
+        "RequiredBy": "NetworkManager-wait-online.service", 
+        "Requires": "system.slice basic.target", 
+        "Restart": "on-failure", 
+        "RestartUSec": "100ms", 
+        "Result": "success", 
+        "RootDirectoryStartOnly": "no", 
+        "RuntimeDirectoryMode": "0755", 
+        "SameProcessGroup": "no", 
+        "SecureBits": "0", 
+        "SendSIGHUP": "no", 
+        "SendSIGKILL": "yes", 
+        "Slice": "system.slice", 
+        "StandardError": "inherit", 
+        "StandardInput": "null", 
+        "StandardOutput": "journal", 
+        "StartLimitAction": "none", 
+        "StartLimitBurst": "5", 
+        "StartLimitInterval": "10000000", 
+        "StartupBlockIOWeight": "18446744073709551615", 
+        "StartupCPUShares": "18446744073709551615", 
+        "StatusErrno": "0", 
+        "StopWhenUnneeded": "no", 
+        "SubState": "running", 
+        "SyslogLevelPrefix": "yes", 
+        "SyslogPriority": "30", 
+        "SystemCallErrorNumber": "0", 
+        "TTYReset": "no", 
+        "TTYVHangup": "no", 
+        "TTYVTDisallocate": "no", 
+        "TasksAccounting": "no", 
+        "TasksCurrent": "18446744073709551615", 
+        "TasksMax": "18446744073709551615", 
+        "TimeoutStartUSec": "1min 30s", 
+        "TimeoutStopUSec": "1min 30s", 
+        "TimerSlackNSec": "50000", 
+        "Transient": "no", 
+        "Type": "dbus", 
+        "UMask": "0022", 
+        "UnitFilePreset": "enabled", 
+        "UnitFileState": "enabled", 
+        "WantedBy": "multi-user.target", 
+        "Wants": "network.target", 
+        "WatchdogTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "WatchdogTimestampMonotonic": "23129351", 
+        "WatchdogUSec": "0"
+    }
+}
+2019-11-13 11:40:59,170 p=13101 u=vagrant |  ok: [master2.lab.example.com] => {
+    "changed": false, 
+    "enabled": true, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "daemon_reload": false, 
+            "enabled": true, 
+            "masked": null, 
+            "name": "NetworkManager", 
+            "no_block": false, 
+            "state": "started", 
+            "user": false
+        }
+    }, 
+    "name": "NetworkManager", 
+    "state": "started", 
+    "status": {
+        "ActiveEnterTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "ActiveEnterTimestampMonotonic": "22361734", 
+        "ActiveExitTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "ActiveExitTimestampMonotonic": "22300662", 
+        "ActiveState": "active", 
+        "After": "network-pre.target systemd-journald.socket system.slice dbus.service basic.target", 
+        "AllowIsolate": "no", 
+        "AmbientCapabilities": "0", 
+        "AssertResult": "yes", 
+        "AssertTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "AssertTimestampMonotonic": "22326970", 
+        "Before": "network.target network.service shutdown.target multi-user.target NetworkManager-wait-online.service", 
+        "BlockIOAccounting": "no", 
+        "BlockIOWeight": "18446744073709551615", 
+        "BusName": "org.freedesktop.NetworkManager", 
+        "CPUAccounting": "no", 
+        "CPUQuotaPerSecUSec": "infinity", 
+        "CPUSchedulingPolicy": "0", 
+        "CPUSchedulingPriority": "0", 
+        "CPUSchedulingResetOnFork": "no", 
+        "CPUShares": "18446744073709551615", 
+        "CanIsolate": "no", 
+        "CanReload": "yes", 
+        "CanStart": "yes", 
+        "CanStop": "yes", 
+        "CapabilityBoundingSet": "539309282", 
+        "ConditionResult": "yes", 
+        "ConditionTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "ConditionTimestampMonotonic": "22326964", 
+        "Conflicts": "shutdown.target", 
+        "ControlGroup": "/system.slice/NetworkManager.service", 
+        "ControlPID": "0", 
+        "DefaultDependencies": "yes", 
+        "Delegate": "no", 
+        "Description": "Network Manager", 
+        "DevicePolicy": "auto", 
+        "Documentation": "man:NetworkManager(8)", 
+        "ExecMainCode": "0", 
+        "ExecMainExitTimestampMonotonic": "0", 
+        "ExecMainPID": "10030", 
+        "ExecMainStartTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "ExecMainStartTimestampMonotonic": "22327789", 
+        "ExecMainStatus": "0", 
+        "ExecReload": "{ path=/usr/bin/dbus-send ; argv[]=/usr/bin/dbus-send --print-reply --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Reload uint32:0 ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "ExecStart": "{ path=/usr/sbin/NetworkManager ; argv[]=/usr/sbin/NetworkManager --no-daemon ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "FailureAction": "none", 
+        "FileDescriptorStoreMax": "0", 
+        "FragmentPath": "/usr/lib/systemd/system/NetworkManager.service", 
+        "GuessMainPID": "yes", 
+        "IOScheduling": "0", 
+        "Id": "NetworkManager.service", 
+        "IgnoreOnIsolate": "no", 
+        "IgnoreOnSnapshot": "no", 
+        "IgnoreSIGPIPE": "yes", 
+        "InactiveEnterTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "InactiveEnterTimestampMonotonic": "22326058", 
+        "InactiveExitTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "InactiveExitTimestampMonotonic": "22327846", 
+        "JobTimeoutAction": "none", 
+        "JobTimeoutUSec": "0", 
+        "KillMode": "process", 
+        "KillSignal": "15", 
+        "LimitAS": "18446744073709551615", 
+        "LimitCORE": "18446744073709551615", 
+        "LimitCPU": "18446744073709551615", 
+        "LimitDATA": "18446744073709551615", 
+        "LimitFSIZE": "18446744073709551615", 
+        "LimitLOCKS": "18446744073709551615", 
+        "LimitMEMLOCK": "65536", 
+        "LimitMSGQUEUE": "819200", 
+        "LimitNICE": "0", 
+        "LimitNOFILE": "4096", 
+        "LimitNPROC": "7272", 
+        "LimitRSS": "18446744073709551615", 
+        "LimitRTPRIO": "0", 
+        "LimitRTTIME": "18446744073709551615", 
+        "LimitSIGPENDING": "7272", 
+        "LimitSTACK": "18446744073709551615", 
+        "LoadState": "loaded", 
+        "MainPID": "10030", 
+        "MemoryAccounting": "no", 
+        "MemoryCurrent": "18446744073709551615", 
+        "MemoryLimit": "18446744073709551615", 
+        "MountFlags": "0", 
+        "Names": "NetworkManager.service", 
+        "NeedDaemonReload": "no", 
+        "Nice": "0", 
+        "NoNewPrivileges": "no", 
+        "NonBlocking": "no", 
+        "NotifyAccess": "none", 
+        "OOMScoreAdjust": "0", 
+        "OnFailureJobMode": "replace", 
+        "PermissionsStartOnly": "no", 
+        "PrivateDevices": "no", 
+        "PrivateNetwork": "no", 
+        "PrivateTmp": "no", 
+        "ProtectHome": "read-only", 
+        "ProtectSystem": "yes", 
+        "RefuseManualStart": "no", 
+        "RefuseManualStop": "no", 
+        "RemainAfterExit": "no", 
+        "RequiredBy": "NetworkManager-wait-online.service", 
+        "Requires": "system.slice basic.target", 
+        "Restart": "on-failure", 
+        "RestartUSec": "100ms", 
+        "Result": "success", 
+        "RootDirectoryStartOnly": "no", 
+        "RuntimeDirectoryMode": "0755", 
+        "SameProcessGroup": "no", 
+        "SecureBits": "0", 
+        "SendSIGHUP": "no", 
+        "SendSIGKILL": "yes", 
+        "Slice": "system.slice", 
+        "StandardError": "inherit", 
+        "StandardInput": "null", 
+        "StandardOutput": "journal", 
+        "StartLimitAction": "none", 
+        "StartLimitBurst": "5", 
+        "StartLimitInterval": "10000000", 
+        "StartupBlockIOWeight": "18446744073709551615", 
+        "StartupCPUShares": "18446744073709551615", 
+        "StatusErrno": "0", 
+        "StopWhenUnneeded": "no", 
+        "SubState": "running", 
+        "SyslogLevelPrefix": "yes", 
+        "SyslogPriority": "30", 
+        "SystemCallErrorNumber": "0", 
+        "TTYReset": "no", 
+        "TTYVHangup": "no", 
+        "TTYVTDisallocate": "no", 
+        "TasksAccounting": "no", 
+        "TasksCurrent": "18446744073709551615", 
+        "TasksMax": "18446744073709551615", 
+        "TimeoutStartUSec": "1min 30s", 
+        "TimeoutStopUSec": "1min 30s", 
+        "TimerSlackNSec": "50000", 
+        "Transient": "no", 
+        "Type": "dbus", 
+        "UMask": "0022", 
+        "UnitFilePreset": "enabled", 
+        "UnitFileState": "enabled", 
+        "WantedBy": "multi-user.target", 
+        "Wants": "network.target", 
+        "WatchdogTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "WatchdogTimestampMonotonic": "22361276", 
+        "WatchdogUSec": "0"
+    }
+}
+2019-11-13 11:40:59,183 p=13101 u=vagrant |  ok: [master3.lab.example.com] => {
+    "changed": false, 
+    "enabled": true, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "daemon_reload": false, 
+            "enabled": true, 
+            "masked": null, 
+            "name": "NetworkManager", 
+            "no_block": false, 
+            "state": "started", 
+            "user": false
+        }
+    }, 
+    "name": "NetworkManager", 
+    "state": "started", 
+    "status": {
+        "ActiveEnterTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "ActiveEnterTimestampMonotonic": "22271421", 
+        "ActiveExitTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "ActiveExitTimestampMonotonic": "22215735", 
+        "ActiveState": "active", 
+        "After": "basic.target network-pre.target system.slice dbus.service systemd-journald.socket", 
+        "AllowIsolate": "no", 
+        "AmbientCapabilities": "0", 
+        "AssertResult": "yes", 
+        "AssertTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "AssertTimestampMonotonic": "22234416", 
+        "Before": "NetworkManager-wait-online.service network.service shutdown.target multi-user.target network.target", 
+        "BlockIOAccounting": "no", 
+        "BlockIOWeight": "18446744073709551615", 
+        "BusName": "org.freedesktop.NetworkManager", 
+        "CPUAccounting": "no", 
+        "CPUQuotaPerSecUSec": "infinity", 
+        "CPUSchedulingPolicy": "0", 
+        "CPUSchedulingPriority": "0", 
+        "CPUSchedulingResetOnFork": "no", 
+        "CPUShares": "18446744073709551615", 
+        "CanIsolate": "no", 
+        "CanReload": "yes", 
+        "CanStart": "yes", 
+        "CanStop": "yes", 
+        "CapabilityBoundingSet": "539309282", 
+        "ConditionResult": "yes", 
+        "ConditionTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "ConditionTimestampMonotonic": "22234415", 
+        "Conflicts": "shutdown.target", 
+        "ControlGroup": "/system.slice/NetworkManager.service", 
+        "ControlPID": "0", 
+        "DefaultDependencies": "yes", 
+        "Delegate": "no", 
+        "Description": "Network Manager", 
+        "DevicePolicy": "auto", 
+        "Documentation": "man:NetworkManager(8)", 
+        "ExecMainCode": "0", 
+        "ExecMainExitTimestampMonotonic": "0", 
+        "ExecMainPID": "9914", 
+        "ExecMainStartTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "ExecMainStartTimestampMonotonic": "22235314", 
+        "ExecMainStatus": "0", 
+        "ExecReload": "{ path=/usr/bin/dbus-send ; argv[]=/usr/bin/dbus-send --print-reply --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Reload uint32:0 ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "ExecStart": "{ path=/usr/sbin/NetworkManager ; argv[]=/usr/sbin/NetworkManager --no-daemon ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "FailureAction": "none", 
+        "FileDescriptorStoreMax": "0", 
+        "FragmentPath": "/usr/lib/systemd/system/NetworkManager.service", 
+        "GuessMainPID": "yes", 
+        "IOScheduling": "0", 
+        "Id": "NetworkManager.service", 
+        "IgnoreOnIsolate": "no", 
+        "IgnoreOnSnapshot": "no", 
+        "IgnoreSIGPIPE": "yes", 
+        "InactiveEnterTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "InactiveEnterTimestampMonotonic": "22233137", 
+        "InactiveExitTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "InactiveExitTimestampMonotonic": "22235364", 
+        "JobTimeoutAction": "none", 
+        "JobTimeoutUSec": "0", 
+        "KillMode": "process", 
+        "KillSignal": "15", 
+        "LimitAS": "18446744073709551615", 
+        "LimitCORE": "18446744073709551615", 
+        "LimitCPU": "18446744073709551615", 
+        "LimitDATA": "18446744073709551615", 
+        "LimitFSIZE": "18446744073709551615", 
+        "LimitLOCKS": "18446744073709551615", 
+        "LimitMEMLOCK": "65536", 
+        "LimitMSGQUEUE": "819200", 
+        "LimitNICE": "0", 
+        "LimitNOFILE": "4096", 
+        "LimitNPROC": "7272", 
+        "LimitRSS": "18446744073709551615", 
+        "LimitRTPRIO": "0", 
+        "LimitRTTIME": "18446744073709551615", 
+        "LimitSIGPENDING": "7272", 
+        "LimitSTACK": "18446744073709551615", 
+        "LoadState": "loaded", 
+        "MainPID": "9914", 
+        "MemoryAccounting": "no", 
+        "MemoryCurrent": "18446744073709551615", 
+        "MemoryLimit": "18446744073709551615", 
+        "MountFlags": "0", 
+        "Names": "NetworkManager.service", 
+        "NeedDaemonReload": "no", 
+        "Nice": "0", 
+        "NoNewPrivileges": "no", 
+        "NonBlocking": "no", 
+        "NotifyAccess": "none", 
+        "OOMScoreAdjust": "0", 
+        "OnFailureJobMode": "replace", 
+        "PermissionsStartOnly": "no", 
+        "PrivateDevices": "no", 
+        "PrivateNetwork": "no", 
+        "PrivateTmp": "no", 
+        "ProtectHome": "read-only", 
+        "ProtectSystem": "yes", 
+        "RefuseManualStart": "no", 
+        "RefuseManualStop": "no", 
+        "RemainAfterExit": "no", 
+        "RequiredBy": "NetworkManager-wait-online.service", 
+        "Requires": "system.slice basic.target", 
+        "Restart": "on-failure", 
+        "RestartUSec": "100ms", 
+        "Result": "success", 
+        "RootDirectoryStartOnly": "no", 
+        "RuntimeDirectoryMode": "0755", 
+        "SameProcessGroup": "no", 
+        "SecureBits": "0", 
+        "SendSIGHUP": "no", 
+        "SendSIGKILL": "yes", 
+        "Slice": "system.slice", 
+        "StandardError": "inherit", 
+        "StandardInput": "null", 
+        "StandardOutput": "journal", 
+        "StartLimitAction": "none", 
+        "StartLimitBurst": "5", 
+        "StartLimitInterval": "10000000", 
+        "StartupBlockIOWeight": "18446744073709551615", 
+        "StartupCPUShares": "18446744073709551615", 
+        "StatusErrno": "0", 
+        "StopWhenUnneeded": "no", 
+        "SubState": "running", 
+        "SyslogLevelPrefix": "yes", 
+        "SyslogPriority": "30", 
+        "SystemCallErrorNumber": "0", 
+        "TTYReset": "no", 
+        "TTYVHangup": "no", 
+        "TTYVTDisallocate": "no", 
+        "TasksAccounting": "no", 
+        "TasksCurrent": "18446744073709551615", 
+        "TasksMax": "18446744073709551615", 
+        "TimeoutStartUSec": "1min 30s", 
+        "TimeoutStopUSec": "1min 30s", 
+        "TimerSlackNSec": "50000", 
+        "Transient": "no", 
+        "Type": "dbus", 
+        "UMask": "0022", 
+        "UnitFilePreset": "enabled", 
+        "UnitFileState": "enabled", 
+        "WantedBy": "multi-user.target", 
+        "Wants": "network.target", 
+        "WatchdogTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "WatchdogTimestampMonotonic": "22271347", 
+        "WatchdogUSec": "0"
+    }
+}
+2019-11-13 11:40:59,196 p=13101 u=vagrant |  TASK [Upgrade all packages] *************************************************************************************************************************************************
+2019-11-13 11:40:59,196 p=13101 u=vagrant |  task path: /home/vagrant/install-run/cluster-pre/pre-install.yml:49
+2019-11-13 11:40:59,519 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/packaging/os/yum.py
+2019-11-13 11:40:59,521 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/packaging/os/yum.py
+2019-11-13 11:40:59,527 p=13101 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/packaging/os/yum.py
+2019-11-13 11:41:17,668 p=13101 u=vagrant |  ok: [master3.lab.example.com] => {
+    "changed": false, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "allow_downgrade": false, 
+            "conf_file": null, 
+            "disable_gpg_check": false, 
+            "disablerepo": null, 
+            "enablerepo": null, 
+            "exclude": null, 
+            "install_repoquery": true, 
+            "installroot": "/", 
+            "list": null, 
+            "name": [
+                "*"
+            ], 
+            "security": false, 
+            "skip_broken": false, 
+            "state": "latest", 
+            "update_cache": false, 
+            "validate_certs": true
+        }
+    }, 
+    "msg": "", 
+    "rc": 0, 
+    "results": [
+        "Nothing to do here, all packages are up to date"
+    ]
+}
+2019-11-13 11:41:17,949 p=13101 u=vagrant |  ok: [master2.lab.example.com] => {
+    "changed": false, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "allow_downgrade": false, 
+            "conf_file": null, 
+            "disable_gpg_check": false, 
+            "disablerepo": null, 
+            "enablerepo": null, 
+            "exclude": null, 
+            "install_repoquery": true, 
+            "installroot": "/", 
+            "list": null, 
+            "name": [
+                "*"
+            ], 
+            "security": false, 
+            "skip_broken": false, 
+            "state": "latest", 
+            "update_cache": false, 
+            "validate_certs": true
+        }
+    }, 
+    "msg": "", 
+    "rc": 0, 
+    "results": [
+        "Nothing to do here, all packages are up to date"
+    ]
+}
+2019-11-13 11:41:18,243 p=13101 u=vagrant |  ok: [master1.lab.example.com] => {
+    "changed": false, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "allow_downgrade": false, 
+            "conf_file": null, 
+            "disable_gpg_check": false, 
+            "disablerepo": null, 
+            "enablerepo": null, 
+            "exclude": null, 
+            "install_repoquery": true, 
+            "installroot": "/", 
+            "list": null, 
+            "name": [
+                "*"
+            ], 
+            "security": false, 
+            "skip_broken": false, 
+            "state": "latest", 
+            "update_cache": false, 
+            "validate_certs": true
+        }
+    }, 
+    "msg": "", 
+    "rc": 0, 
+    "results": [
+        "Nothing to do here, all packages are up to date"
+    ]
+}
+2019-11-13 11:41:18,245 p=13101 u=vagrant |  META: ran handlers
+2019-11-13 11:41:18,246 p=13101 u=vagrant |  META: ran handlers
+2019-11-13 11:41:18,248 p=13101 u=vagrant |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-13 11:41:18,248 p=13101 u=vagrant |  master1.lab.example.com    : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 11:41:18,248 p=13101 u=vagrant |  master2.lab.example.com    : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 11:41:18,248 p=13101 u=vagrant |  master3.lab.example.com    : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 11:52:16,131 p=13327 u=vagrant |  ansible-playbook 2.4.0.0
+  config file = /home/vagrant/install-run/cluster-pre/ansible.cfg
+  configured module search path = [u'/home/vagrant/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/site-packages/ansible
+  executable location = /usr/bin/ansible-playbook
+  python version = 2.7.5 (default, May  3 2017, 07:55:04) [GCC 4.8.5 20150623 (Red Hat 4.8.5-14)]
+2019-11-13 11:52:16,132 p=13327 u=vagrant |  Using /home/vagrant/install-run/cluster-pre/ansible.cfg as config file
+2019-11-13 11:52:19,638 p=13327 u=vagrant |  setting up inventory plugins
+2019-11-13 11:52:19,657 p=13327 u=vagrant |  Parsed /home/vagrant/install-run/cluster-pre/hosts-ucf inventory source with ini plugin
+2019-11-13 11:52:19,805 p=13327 u=vagrant |  Loading callback plugin default of type stdout, v2.0 from /usr/lib/python2.7/site-packages/ansible/plugins/callback/__init__.pyc
+2019-11-13 11:52:19,913 p=13327 u=vagrant |  PLAYBOOK: pre-install.yml ***************************************************************************************************************************************************
+2019-11-13 11:52:19,914 p=13327 u=vagrant |  1 plays in pre-install.yml
+2019-11-13 11:52:19,959 p=13327 u=vagrant |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-13 11:52:19,982 p=13327 u=vagrant |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-13 11:52:20,578 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:20,581 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:20,583 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:20,588 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:20,592 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:23,488 p=13327 u=vagrant |  ok: [master2.lab.example.com]
+2019-11-13 11:52:23,552 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:23,578 p=13327 u=vagrant |  ok: [master1.lab.example.com]
+2019-11-13 11:52:23,609 p=13327 u=vagrant |  ok: [master3.lab.example.com]
+2019-11-13 11:52:23,675 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:23,690 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:23,700 p=13327 u=vagrant |  ok: [infra1.lab.example.com]
+2019-11-13 11:52:23,726 p=13327 u=vagrant |  ok: [infra2.lab.example.com]
+2019-11-13 11:52:26,170 p=13327 u=vagrant |  ok: [infra3.lab.example.com]
+2019-11-13 11:52:26,268 p=13327 u=vagrant |  ok: [app1.lab.example.com]
+2019-11-13 11:52:26,300 p=13327 u=vagrant |  ok: [app2.lab.example.com]
+2019-11-13 11:52:26,302 p=13327 u=vagrant |  META: ran handlers
+2019-11-13 11:52:26,316 p=13327 u=vagrant |  TASK [Enable SELinux in Enforcing Mode] *************************************************************************************************************************************
+2019-11-13 11:52:26,316 p=13327 u=vagrant |  task path: /home/vagrant/install-run/cluster-pre/pre-install.yml:30
+2019-11-13 11:52:26,987 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/selinux.py
+2019-11-13 11:52:26,988 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/selinux.py
+2019-11-13 11:52:26,993 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/selinux.py
+2019-11-13 11:52:26,998 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/selinux.py
+2019-11-13 11:52:27,003 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/selinux.py
+2019-11-13 11:52:27,817 p=13327 u=vagrant |  ok: [master2.lab.example.com] => {
+    "changed": false, 
+    "configfile": "/etc/selinux/config", 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "configfile": "/etc/selinux/config", 
+            "policy": "targeted", 
+            "state": "enforcing"
+        }
+    }, 
+    "msg": "", 
+    "policy": "targeted", 
+    "state": "enforcing"
+}
+2019-11-13 11:52:27,877 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/selinux.py
+2019-11-13 11:52:27,912 p=13327 u=vagrant |  ok: [infra2.lab.example.com] => {
+    "changed": false, 
+    "configfile": "/etc/selinux/config", 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "configfile": "/etc/selinux/config", 
+            "policy": "targeted", 
+            "state": "enforcing"
+        }
+    }, 
+    "msg": "", 
+    "policy": "targeted", 
+    "state": "enforcing"
+}
+2019-11-13 11:52:27,942 p=13327 u=vagrant |  ok: [master3.lab.example.com] => {
+    "changed": false, 
+    "configfile": "/etc/selinux/config", 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "configfile": "/etc/selinux/config", 
+            "policy": "targeted", 
+            "state": "enforcing"
+        }
+    }, 
+    "msg": "", 
+    "policy": "targeted", 
+    "state": "enforcing"
+}
+2019-11-13 11:52:27,955 p=13327 u=vagrant |  ok: [master1.lab.example.com] => {
+    "changed": false, 
+    "configfile": "/etc/selinux/config", 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "configfile": "/etc/selinux/config", 
+            "policy": "targeted", 
+            "state": "enforcing"
+        }
+    }, 
+    "msg": "", 
+    "policy": "targeted", 
+    "state": "enforcing"
+}
+2019-11-13 11:52:27,991 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/selinux.py
+2019-11-13 11:52:27,994 p=13327 u=vagrant |  ok: [infra1.lab.example.com] => {
+    "changed": false, 
+    "configfile": "/etc/selinux/config", 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "configfile": "/etc/selinux/config", 
+            "policy": "targeted", 
+            "state": "enforcing"
+        }
+    }, 
+    "msg": "", 
+    "policy": "targeted", 
+    "state": "enforcing"
+}
+2019-11-13 11:52:28,003 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/selinux.py
+2019-11-13 11:52:28,524 p=13327 u=vagrant |  ok: [infra3.lab.example.com] => {
+    "changed": false, 
+    "configfile": "/etc/selinux/config", 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "configfile": "/etc/selinux/config", 
+            "policy": "targeted", 
+            "state": "enforcing"
+        }
+    }, 
+    "msg": "", 
+    "policy": "targeted", 
+    "state": "enforcing"
+}
+2019-11-13 11:52:28,608 p=13327 u=vagrant |  ok: [app1.lab.example.com] => {
+    "changed": false, 
+    "configfile": "/etc/selinux/config", 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "configfile": "/etc/selinux/config", 
+            "policy": "targeted", 
+            "state": "enforcing"
+        }
+    }, 
+    "msg": "", 
+    "policy": "targeted", 
+    "state": "enforcing"
+}
+2019-11-13 11:52:28,626 p=13327 u=vagrant |  ok: [app2.lab.example.com] => {
+    "changed": false, 
+    "configfile": "/etc/selinux/config", 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "configfile": "/etc/selinux/config", 
+            "policy": "targeted", 
+            "state": "enforcing"
+        }
+    }, 
+    "msg": "", 
+    "policy": "targeted", 
+    "state": "enforcing"
+}
+2019-11-13 11:52:28,642 p=13327 u=vagrant |  TASK [Ensuring NetworkManager is enabled and running] ***********************************************************************************************************************
+2019-11-13 11:52:28,643 p=13327 u=vagrant |  task path: /home/vagrant/install-run/cluster-pre/pre-install.yml:35
+2019-11-13 11:52:28,700 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:28,768 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:28,772 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:28,861 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:28,873 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:29,628 p=13327 u=vagrant |  Running systemd
+2019-11-13 11:52:29,750 p=13327 u=vagrant |  Running systemd
+2019-11-13 11:52:29,774 p=13327 u=vagrant |  Running systemd
+2019-11-13 11:52:29,792 p=13327 u=vagrant |  Running systemd
+2019-11-13 11:52:29,818 p=13327 u=vagrant |  Running systemd
+2019-11-13 11:52:29,881 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/systemd.py
+2019-11-13 11:52:29,882 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/systemd.py
+2019-11-13 11:52:29,889 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/systemd.py
+2019-11-13 11:52:29,895 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/systemd.py
+2019-11-13 11:52:29,900 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/systemd.py
+2019-11-13 11:52:30,588 p=13327 u=vagrant |  ok: [master1.lab.example.com] => {
+    "changed": false, 
+    "enabled": true, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "daemon_reload": false, 
+            "enabled": true, 
+            "masked": null, 
+            "name": "NetworkManager", 
+            "no_block": false, 
+            "state": "started", 
+            "user": false
+        }
+    }, 
+    "name": "NetworkManager", 
+    "state": "started", 
+    "status": {
+        "ActiveEnterTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "ActiveEnterTimestampMonotonic": "23129425", 
+        "ActiveExitTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "ActiveExitTimestampMonotonic": "23070619", 
+        "ActiveState": "active", 
+        "After": "dbus.service systemd-journald.socket network-pre.target system.slice basic.target", 
+        "AllowIsolate": "no", 
+        "AmbientCapabilities": "0", 
+        "AssertResult": "yes", 
+        "AssertTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "AssertTimestampMonotonic": "23095215", 
+        "Before": "shutdown.target NetworkManager-wait-online.service multi-user.target network.target network.service", 
+        "BlockIOAccounting": "no", 
+        "BlockIOWeight": "18446744073709551615", 
+        "BusName": "org.freedesktop.NetworkManager", 
+        "CPUAccounting": "no", 
+        "CPUQuotaPerSecUSec": "infinity", 
+        "CPUSchedulingPolicy": "0", 
+        "CPUSchedulingPriority": "0", 
+        "CPUSchedulingResetOnFork": "no", 
+        "CPUShares": "18446744073709551615", 
+        "CanIsolate": "no", 
+        "CanReload": "yes", 
+        "CanStart": "yes", 
+        "CanStop": "yes", 
+        "CapabilityBoundingSet": "539309282", 
+        "ConditionResult": "yes", 
+        "ConditionTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "ConditionTimestampMonotonic": "23095214", 
+        "Conflicts": "shutdown.target", 
+        "ControlGroup": "/system.slice/NetworkManager.service", 
+        "ControlPID": "0", 
+        "DefaultDependencies": "yes", 
+        "Delegate": "no", 
+        "Description": "Network Manager", 
+        "DevicePolicy": "auto", 
+        "Documentation": "man:NetworkManager(8)", 
+        "ExecMainCode": "0", 
+        "ExecMainExitTimestampMonotonic": "0", 
+        "ExecMainPID": "9234", 
+        "ExecMainStartTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "ExecMainStartTimestampMonotonic": "23095847", 
+        "ExecMainStatus": "0", 
+        "ExecReload": "{ path=/usr/bin/dbus-send ; argv[]=/usr/bin/dbus-send --print-reply --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Reload uint32:0 ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "ExecStart": "{ path=/usr/sbin/NetworkManager ; argv[]=/usr/sbin/NetworkManager --no-daemon ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "FailureAction": "none", 
+        "FileDescriptorStoreMax": "0", 
+        "FragmentPath": "/usr/lib/systemd/system/NetworkManager.service", 
+        "GuessMainPID": "yes", 
+        "IOScheduling": "0", 
+        "Id": "NetworkManager.service", 
+        "IgnoreOnIsolate": "no", 
+        "IgnoreOnSnapshot": "no", 
+        "IgnoreSIGPIPE": "yes", 
+        "InactiveEnterTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "InactiveEnterTimestampMonotonic": "23093988", 
+        "InactiveExitTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "InactiveExitTimestampMonotonic": "23096554", 
+        "JobTimeoutAction": "none", 
+        "JobTimeoutUSec": "0", 
+        "KillMode": "process", 
+        "KillSignal": "15", 
+        "LimitAS": "18446744073709551615", 
+        "LimitCORE": "18446744073709551615", 
+        "LimitCPU": "18446744073709551615", 
+        "LimitDATA": "18446744073709551615", 
+        "LimitFSIZE": "18446744073709551615", 
+        "LimitLOCKS": "18446744073709551615", 
+        "LimitMEMLOCK": "65536", 
+        "LimitMSGQUEUE": "819200", 
+        "LimitNICE": "0", 
+        "LimitNOFILE": "4096", 
+        "LimitNPROC": "7272", 
+        "LimitRSS": "18446744073709551615", 
+        "LimitRTPRIO": "0", 
+        "LimitRTTIME": "18446744073709551615", 
+        "LimitSIGPENDING": "7272", 
+        "LimitSTACK": "18446744073709551615", 
+        "LoadState": "loaded", 
+        "MainPID": "9234", 
+        "MemoryAccounting": "no", 
+        "MemoryCurrent": "18446744073709551615", 
+        "MemoryLimit": "18446744073709551615", 
+        "MountFlags": "0", 
+        "Names": "NetworkManager.service", 
+        "NeedDaemonReload": "no", 
+        "Nice": "0", 
+        "NoNewPrivileges": "no", 
+        "NonBlocking": "no", 
+        "NotifyAccess": "none", 
+        "OOMScoreAdjust": "0", 
+        "OnFailureJobMode": "replace", 
+        "PermissionsStartOnly": "no", 
+        "PrivateDevices": "no", 
+        "PrivateNetwork": "no", 
+        "PrivateTmp": "no", 
+        "ProtectHome": "read-only", 
+        "ProtectSystem": "yes", 
+        "RefuseManualStart": "no", 
+        "RefuseManualStop": "no", 
+        "RemainAfterExit": "no", 
+        "RequiredBy": "NetworkManager-wait-online.service", 
+        "Requires": "system.slice basic.target", 
+        "Restart": "on-failure", 
+        "RestartUSec": "100ms", 
+        "Result": "success", 
+        "RootDirectoryStartOnly": "no", 
+        "RuntimeDirectoryMode": "0755", 
+        "SameProcessGroup": "no", 
+        "SecureBits": "0", 
+        "SendSIGHUP": "no", 
+        "SendSIGKILL": "yes", 
+        "Slice": "system.slice", 
+        "StandardError": "inherit", 
+        "StandardInput": "null", 
+        "StandardOutput": "journal", 
+        "StartLimitAction": "none", 
+        "StartLimitBurst": "5", 
+        "StartLimitInterval": "10000000", 
+        "StartupBlockIOWeight": "18446744073709551615", 
+        "StartupCPUShares": "18446744073709551615", 
+        "StatusErrno": "0", 
+        "StopWhenUnneeded": "no", 
+        "SubState": "running", 
+        "SyslogLevelPrefix": "yes", 
+        "SyslogPriority": "30", 
+        "SystemCallErrorNumber": "0", 
+        "TTYReset": "no", 
+        "TTYVHangup": "no", 
+        "TTYVTDisallocate": "no", 
+        "TasksAccounting": "no", 
+        "TasksCurrent": "18446744073709551615", 
+        "TasksMax": "18446744073709551615", 
+        "TimeoutStartUSec": "1min 30s", 
+        "TimeoutStopUSec": "1min 30s", 
+        "TimerSlackNSec": "50000", 
+        "Transient": "no", 
+        "Type": "dbus", 
+        "UMask": "0022", 
+        "UnitFilePreset": "enabled", 
+        "UnitFileState": "enabled", 
+        "WantedBy": "multi-user.target", 
+        "Wants": "network.target", 
+        "WatchdogTimestamp": "vie 2019-11-08 07:07:39 PST", 
+        "WatchdogTimestampMonotonic": "23129351", 
+        "WatchdogUSec": "0"
+    }
+}
+2019-11-13 11:52:30,633 p=13327 u=vagrant |  ok: [master2.lab.example.com] => {
+    "changed": false, 
+    "enabled": true, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "daemon_reload": false, 
+            "enabled": true, 
+            "masked": null, 
+            "name": "NetworkManager", 
+            "no_block": false, 
+            "state": "started", 
+            "user": false
+        }
+    }, 
+    "name": "NetworkManager", 
+    "state": "started", 
+    "status": {
+        "ActiveEnterTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "ActiveEnterTimestampMonotonic": "22361734", 
+        "ActiveExitTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "ActiveExitTimestampMonotonic": "22300662", 
+        "ActiveState": "active", 
+        "After": "network-pre.target systemd-journald.socket system.slice dbus.service basic.target", 
+        "AllowIsolate": "no", 
+        "AmbientCapabilities": "0", 
+        "AssertResult": "yes", 
+        "AssertTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "AssertTimestampMonotonic": "22326970", 
+        "Before": "network.target network.service shutdown.target multi-user.target NetworkManager-wait-online.service", 
+        "BlockIOAccounting": "no", 
+        "BlockIOWeight": "18446744073709551615", 
+        "BusName": "org.freedesktop.NetworkManager", 
+        "CPUAccounting": "no", 
+        "CPUQuotaPerSecUSec": "infinity", 
+        "CPUSchedulingPolicy": "0", 
+        "CPUSchedulingPriority": "0", 
+        "CPUSchedulingResetOnFork": "no", 
+        "CPUShares": "18446744073709551615", 
+        "CanIsolate": "no", 
+        "CanReload": "yes", 
+        "CanStart": "yes", 
+        "CanStop": "yes", 
+        "CapabilityBoundingSet": "539309282", 
+        "ConditionResult": "yes", 
+        "ConditionTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "ConditionTimestampMonotonic": "22326964", 
+        "Conflicts": "shutdown.target", 
+        "ControlGroup": "/system.slice/NetworkManager.service", 
+        "ControlPID": "0", 
+        "DefaultDependencies": "yes", 
+        "Delegate": "no", 
+        "Description": "Network Manager", 
+        "DevicePolicy": "auto", 
+        "Documentation": "man:NetworkManager(8)", 
+        "ExecMainCode": "0", 
+        "ExecMainExitTimestampMonotonic": "0", 
+        "ExecMainPID": "10030", 
+        "ExecMainStartTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "ExecMainStartTimestampMonotonic": "22327789", 
+        "ExecMainStatus": "0", 
+        "ExecReload": "{ path=/usr/bin/dbus-send ; argv[]=/usr/bin/dbus-send --print-reply --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Reload uint32:0 ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "ExecStart": "{ path=/usr/sbin/NetworkManager ; argv[]=/usr/sbin/NetworkManager --no-daemon ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "FailureAction": "none", 
+        "FileDescriptorStoreMax": "0", 
+        "FragmentPath": "/usr/lib/systemd/system/NetworkManager.service", 
+        "GuessMainPID": "yes", 
+        "IOScheduling": "0", 
+        "Id": "NetworkManager.service", 
+        "IgnoreOnIsolate": "no", 
+        "IgnoreOnSnapshot": "no", 
+        "IgnoreSIGPIPE": "yes", 
+        "InactiveEnterTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "InactiveEnterTimestampMonotonic": "22326058", 
+        "InactiveExitTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "InactiveExitTimestampMonotonic": "22327846", 
+        "JobTimeoutAction": "none", 
+        "JobTimeoutUSec": "0", 
+        "KillMode": "process", 
+        "KillSignal": "15", 
+        "LimitAS": "18446744073709551615", 
+        "LimitCORE": "18446744073709551615", 
+        "LimitCPU": "18446744073709551615", 
+        "LimitDATA": "18446744073709551615", 
+        "LimitFSIZE": "18446744073709551615", 
+        "LimitLOCKS": "18446744073709551615", 
+        "LimitMEMLOCK": "65536", 
+        "LimitMSGQUEUE": "819200", 
+        "LimitNICE": "0", 
+        "LimitNOFILE": "4096", 
+        "LimitNPROC": "7272", 
+        "LimitRSS": "18446744073709551615", 
+        "LimitRTPRIO": "0", 
+        "LimitRTTIME": "18446744073709551615", 
+        "LimitSIGPENDING": "7272", 
+        "LimitSTACK": "18446744073709551615", 
+        "LoadState": "loaded", 
+        "MainPID": "10030", 
+        "MemoryAccounting": "no", 
+        "MemoryCurrent": "18446744073709551615", 
+        "MemoryLimit": "18446744073709551615", 
+        "MountFlags": "0", 
+        "Names": "NetworkManager.service", 
+        "NeedDaemonReload": "no", 
+        "Nice": "0", 
+        "NoNewPrivileges": "no", 
+        "NonBlocking": "no", 
+        "NotifyAccess": "none", 
+        "OOMScoreAdjust": "0", 
+        "OnFailureJobMode": "replace", 
+        "PermissionsStartOnly": "no", 
+        "PrivateDevices": "no", 
+        "PrivateNetwork": "no", 
+        "PrivateTmp": "no", 
+        "ProtectHome": "read-only", 
+        "ProtectSystem": "yes", 
+        "RefuseManualStart": "no", 
+        "RefuseManualStop": "no", 
+        "RemainAfterExit": "no", 
+        "RequiredBy": "NetworkManager-wait-online.service", 
+        "Requires": "system.slice basic.target", 
+        "Restart": "on-failure", 
+        "RestartUSec": "100ms", 
+        "Result": "success", 
+        "RootDirectoryStartOnly": "no", 
+        "RuntimeDirectoryMode": "0755", 
+        "SameProcessGroup": "no", 
+        "SecureBits": "0", 
+        "SendSIGHUP": "no", 
+        "SendSIGKILL": "yes", 
+        "Slice": "system.slice", 
+        "StandardError": "inherit", 
+        "StandardInput": "null", 
+        "StandardOutput": "journal", 
+        "StartLimitAction": "none", 
+        "StartLimitBurst": "5", 
+        "StartLimitInterval": "10000000", 
+        "StartupBlockIOWeight": "18446744073709551615", 
+        "StartupCPUShares": "18446744073709551615", 
+        "StatusErrno": "0", 
+        "StopWhenUnneeded": "no", 
+        "SubState": "running", 
+        "SyslogLevelPrefix": "yes", 
+        "SyslogPriority": "30", 
+        "SystemCallErrorNumber": "0", 
+        "TTYReset": "no", 
+        "TTYVHangup": "no", 
+        "TTYVTDisallocate": "no", 
+        "TasksAccounting": "no", 
+        "TasksCurrent": "18446744073709551615", 
+        "TasksMax": "18446744073709551615", 
+        "TimeoutStartUSec": "1min 30s", 
+        "TimeoutStopUSec": "1min 30s", 
+        "TimerSlackNSec": "50000", 
+        "Transient": "no", 
+        "Type": "dbus", 
+        "UMask": "0022", 
+        "UnitFilePreset": "enabled", 
+        "UnitFileState": "enabled", 
+        "WantedBy": "multi-user.target", 
+        "Wants": "network.target", 
+        "WatchdogTimestamp": "vie 2019-11-08 07:09:26 PST", 
+        "WatchdogTimestampMonotonic": "22361276", 
+        "WatchdogUSec": "0"
+    }
+}
+2019-11-13 11:52:30,643 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:30,688 p=13327 u=vagrant |  ok: [infra2.lab.example.com] => {
+    "changed": false, 
+    "enabled": true, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "daemon_reload": false, 
+            "enabled": true, 
+            "masked": null, 
+            "name": "NetworkManager", 
+            "no_block": false, 
+            "state": "started", 
+            "user": false
+        }
+    }, 
+    "name": "NetworkManager", 
+    "state": "started", 
+    "status": {
+        "ActiveEnterTimestamp": "vie 2019-11-08 07:13:28 PST", 
+        "ActiveEnterTimestampMonotonic": "23357266", 
+        "ActiveExitTimestamp": "vie 2019-11-08 07:13:28 PST", 
+        "ActiveExitTimestampMonotonic": "23292434", 
+        "ActiveState": "active", 
+        "After": "systemd-journald.socket network-pre.target system.slice basic.target dbus.service", 
+        "AllowIsolate": "no", 
+        "AmbientCapabilities": "0", 
+        "AssertResult": "yes", 
+        "AssertTimestamp": "vie 2019-11-08 07:13:28 PST", 
+        "AssertTimestampMonotonic": "23321325", 
+        "Before": "network.target shutdown.target network.service NetworkManager-wait-online.service multi-user.target", 
+        "BlockIOAccounting": "no", 
+        "BlockIOWeight": "18446744073709551615", 
+        "BusName": "org.freedesktop.NetworkManager", 
+        "CPUAccounting": "no", 
+        "CPUQuotaPerSecUSec": "infinity", 
+        "CPUSchedulingPolicy": "0", 
+        "CPUSchedulingPriority": "0", 
+        "CPUSchedulingResetOnFork": "no", 
+        "CPUShares": "18446744073709551615", 
+        "CanIsolate": "no", 
+        "CanReload": "yes", 
+        "CanStart": "yes", 
+        "CanStop": "yes", 
+        "CapabilityBoundingSet": "539309282", 
+        "ConditionResult": "yes", 
+        "ConditionTimestamp": "vie 2019-11-08 07:13:28 PST", 
+        "ConditionTimestampMonotonic": "23321325", 
+        "Conflicts": "shutdown.target", 
+        "ControlGroup": "/system.slice/NetworkManager.service", 
+        "ControlPID": "0", 
+        "DefaultDependencies": "yes", 
+        "Delegate": "no", 
+        "Description": "Network Manager", 
+        "DevicePolicy": "auto", 
+        "Documentation": "man:NetworkManager(8)", 
+        "ExecMainCode": "0", 
+        "ExecMainExitTimestampMonotonic": "0", 
+        "ExecMainPID": "9370", 
+        "ExecMainStartTimestamp": "vie 2019-11-08 07:13:28 PST", 
+        "ExecMainStartTimestampMonotonic": "23322313", 
+        "ExecMainStatus": "0", 
+        "ExecReload": "{ path=/usr/bin/dbus-send ; argv[]=/usr/bin/dbus-send --print-reply --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Reload uint32:0 ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "ExecStart": "{ path=/usr/sbin/NetworkManager ; argv[]=/usr/sbin/NetworkManager --no-daemon ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "FailureAction": "none", 
+        "FileDescriptorStoreMax": "0", 
+        "FragmentPath": "/usr/lib/systemd/system/NetworkManager.service", 
+        "GuessMainPID": "yes", 
+        "IOScheduling": "0", 
+        "Id": "NetworkManager.service", 
+        "IgnoreOnIsolate": "no", 
+        "IgnoreOnSnapshot": "no", 
+        "IgnoreSIGPIPE": "yes", 
+        "InactiveEnterTimestamp": "vie 2019-11-08 07:13:28 PST", 
+        "InactiveEnterTimestampMonotonic": "23319795", 
+        "InactiveExitTimestamp": "vie 2019-11-08 07:13:28 PST", 
+        "InactiveExitTimestampMonotonic": "23323145", 
+        "JobTimeoutAction": "none", 
+        "JobTimeoutUSec": "0", 
+        "KillMode": "process", 
+        "KillSignal": "15", 
+        "LimitAS": "18446744073709551615", 
+        "LimitCORE": "18446744073709551615", 
+        "LimitCPU": "18446744073709551615", 
+        "LimitDATA": "18446744073709551615", 
+        "LimitFSIZE": "18446744073709551615", 
+        "LimitLOCKS": "18446744073709551615", 
+        "LimitMEMLOCK": "65536", 
+        "LimitMSGQUEUE": "819200", 
+        "LimitNICE": "0", 
+        "LimitNOFILE": "4096", 
+        "LimitNPROC": "7272", 
+        "LimitRSS": "18446744073709551615", 
+        "LimitRTPRIO": "0", 
+        "LimitRTTIME": "18446744073709551615", 
+        "LimitSIGPENDING": "7272", 
+        "LimitSTACK": "18446744073709551615", 
+        "LoadState": "loaded", 
+        "MainPID": "9370", 
+        "MemoryAccounting": "no", 
+        "MemoryCurrent": "18446744073709551615", 
+        "MemoryLimit": "18446744073709551615", 
+        "MountFlags": "0", 
+        "Names": "NetworkManager.service", 
+        "NeedDaemonReload": "no", 
+        "Nice": "0", 
+        "NoNewPrivileges": "no", 
+        "NonBlocking": "no", 
+        "NotifyAccess": "none", 
+        "OOMScoreAdjust": "0", 
+        "OnFailureJobMode": "replace", 
+        "PermissionsStartOnly": "no", 
+        "PrivateDevices": "no", 
+        "PrivateNetwork": "no", 
+        "PrivateTmp": "no", 
+        "ProtectHome": "read-only", 
+        "ProtectSystem": "yes", 
+        "RefuseManualStart": "no", 
+        "RefuseManualStop": "no", 
+        "RemainAfterExit": "no", 
+        "RequiredBy": "NetworkManager-wait-online.service", 
+        "Requires": "system.slice basic.target", 
+        "Restart": "on-failure", 
+        "RestartUSec": "100ms", 
+        "Result": "success", 
+        "RootDirectoryStartOnly": "no", 
+        "RuntimeDirectoryMode": "0755", 
+        "SameProcessGroup": "no", 
+        "SecureBits": "0", 
+        "SendSIGHUP": "no", 
+        "SendSIGKILL": "yes", 
+        "Slice": "system.slice", 
+        "StandardError": "inherit", 
+        "StandardInput": "null", 
+        "StandardOutput": "journal", 
+        "StartLimitAction": "none", 
+        "StartLimitBurst": "5", 
+        "StartLimitInterval": "10000000", 
+        "StartupBlockIOWeight": "18446744073709551615", 
+        "StartupCPUShares": "18446744073709551615", 
+        "StatusErrno": "0", 
+        "StopWhenUnneeded": "no", 
+        "SubState": "running", 
+        "SyslogLevelPrefix": "yes", 
+        "SyslogPriority": "30", 
+        "SystemCallErrorNumber": "0", 
+        "TTYReset": "no", 
+        "TTYVHangup": "no", 
+        "TTYVTDisallocate": "no", 
+        "TasksAccounting": "no", 
+        "TasksCurrent": "18446744073709551615", 
+        "TasksMax": "18446744073709551615", 
+        "TimeoutStartUSec": "1min 30s", 
+        "TimeoutStopUSec": "1min 30s", 
+        "TimerSlackNSec": "50000", 
+        "Transient": "no", 
+        "Type": "dbus", 
+        "UMask": "0022", 
+        "UnitFilePreset": "enabled", 
+        "UnitFileState": "enabled", 
+        "WantedBy": "multi-user.target", 
+        "Wants": "network.target", 
+        "WatchdogTimestamp": "vie 2019-11-08 07:13:28 PST", 
+        "WatchdogTimestampMonotonic": "23357137", 
+        "WatchdogUSec": "0"
+    }
+}
+2019-11-13 11:52:30,693 p=13327 u=vagrant |  ok: [master3.lab.example.com] => {
+    "changed": false, 
+    "enabled": true, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "daemon_reload": false, 
+            "enabled": true, 
+            "masked": null, 
+            "name": "NetworkManager", 
+            "no_block": false, 
+            "state": "started", 
+            "user": false
+        }
+    }, 
+    "name": "NetworkManager", 
+    "state": "started", 
+    "status": {
+        "ActiveEnterTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "ActiveEnterTimestampMonotonic": "22271421", 
+        "ActiveExitTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "ActiveExitTimestampMonotonic": "22215735", 
+        "ActiveState": "active", 
+        "After": "basic.target network-pre.target system.slice dbus.service systemd-journald.socket", 
+        "AllowIsolate": "no", 
+        "AmbientCapabilities": "0", 
+        "AssertResult": "yes", 
+        "AssertTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "AssertTimestampMonotonic": "22234416", 
+        "Before": "NetworkManager-wait-online.service network.service shutdown.target multi-user.target network.target", 
+        "BlockIOAccounting": "no", 
+        "BlockIOWeight": "18446744073709551615", 
+        "BusName": "org.freedesktop.NetworkManager", 
+        "CPUAccounting": "no", 
+        "CPUQuotaPerSecUSec": "infinity", 
+        "CPUSchedulingPolicy": "0", 
+        "CPUSchedulingPriority": "0", 
+        "CPUSchedulingResetOnFork": "no", 
+        "CPUShares": "18446744073709551615", 
+        "CanIsolate": "no", 
+        "CanReload": "yes", 
+        "CanStart": "yes", 
+        "CanStop": "yes", 
+        "CapabilityBoundingSet": "539309282", 
+        "ConditionResult": "yes", 
+        "ConditionTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "ConditionTimestampMonotonic": "22234415", 
+        "Conflicts": "shutdown.target", 
+        "ControlGroup": "/system.slice/NetworkManager.service", 
+        "ControlPID": "0", 
+        "DefaultDependencies": "yes", 
+        "Delegate": "no", 
+        "Description": "Network Manager", 
+        "DevicePolicy": "auto", 
+        "Documentation": "man:NetworkManager(8)", 
+        "ExecMainCode": "0", 
+        "ExecMainExitTimestampMonotonic": "0", 
+        "ExecMainPID": "9914", 
+        "ExecMainStartTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "ExecMainStartTimestampMonotonic": "22235314", 
+        "ExecMainStatus": "0", 
+        "ExecReload": "{ path=/usr/bin/dbus-send ; argv[]=/usr/bin/dbus-send --print-reply --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Reload uint32:0 ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "ExecStart": "{ path=/usr/sbin/NetworkManager ; argv[]=/usr/sbin/NetworkManager --no-daemon ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "FailureAction": "none", 
+        "FileDescriptorStoreMax": "0", 
+        "FragmentPath": "/usr/lib/systemd/system/NetworkManager.service", 
+        "GuessMainPID": "yes", 
+        "IOScheduling": "0", 
+        "Id": "NetworkManager.service", 
+        "IgnoreOnIsolate": "no", 
+        "IgnoreOnSnapshot": "no", 
+        "IgnoreSIGPIPE": "yes", 
+        "InactiveEnterTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "InactiveEnterTimestampMonotonic": "22233137", 
+        "InactiveExitTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "InactiveExitTimestampMonotonic": "22235364", 
+        "JobTimeoutAction": "none", 
+        "JobTimeoutUSec": "0", 
+        "KillMode": "process", 
+        "KillSignal": "15", 
+        "LimitAS": "18446744073709551615", 
+        "LimitCORE": "18446744073709551615", 
+        "LimitCPU": "18446744073709551615", 
+        "LimitDATA": "18446744073709551615", 
+        "LimitFSIZE": "18446744073709551615", 
+        "LimitLOCKS": "18446744073709551615", 
+        "LimitMEMLOCK": "65536", 
+        "LimitMSGQUEUE": "819200", 
+        "LimitNICE": "0", 
+        "LimitNOFILE": "4096", 
+        "LimitNPROC": "7272", 
+        "LimitRSS": "18446744073709551615", 
+        "LimitRTPRIO": "0", 
+        "LimitRTTIME": "18446744073709551615", 
+        "LimitSIGPENDING": "7272", 
+        "LimitSTACK": "18446744073709551615", 
+        "LoadState": "loaded", 
+        "MainPID": "9914", 
+        "MemoryAccounting": "no", 
+        "MemoryCurrent": "18446744073709551615", 
+        "MemoryLimit": "18446744073709551615", 
+        "MountFlags": "0", 
+        "Names": "NetworkManager.service", 
+        "NeedDaemonReload": "no", 
+        "Nice": "0", 
+        "NoNewPrivileges": "no", 
+        "NonBlocking": "no", 
+        "NotifyAccess": "none", 
+        "OOMScoreAdjust": "0", 
+        "OnFailureJobMode": "replace", 
+        "PermissionsStartOnly": "no", 
+        "PrivateDevices": "no", 
+        "PrivateNetwork": "no", 
+        "PrivateTmp": "no", 
+        "ProtectHome": "read-only", 
+        "ProtectSystem": "yes", 
+        "RefuseManualStart": "no", 
+        "RefuseManualStop": "no", 
+        "RemainAfterExit": "no", 
+        "RequiredBy": "NetworkManager-wait-online.service", 
+        "Requires": "system.slice basic.target", 
+        "Restart": "on-failure", 
+        "RestartUSec": "100ms", 
+        "Result": "success", 
+        "RootDirectoryStartOnly": "no", 
+        "RuntimeDirectoryMode": "0755", 
+        "SameProcessGroup": "no", 
+        "SecureBits": "0", 
+        "SendSIGHUP": "no", 
+        "SendSIGKILL": "yes", 
+        "Slice": "system.slice", 
+        "StandardError": "inherit", 
+        "StandardInput": "null", 
+        "StandardOutput": "journal", 
+        "StartLimitAction": "none", 
+        "StartLimitBurst": "5", 
+        "StartLimitInterval": "10000000", 
+        "StartupBlockIOWeight": "18446744073709551615", 
+        "StartupCPUShares": "18446744073709551615", 
+        "StatusErrno": "0", 
+        "StopWhenUnneeded": "no", 
+        "SubState": "running", 
+        "SyslogLevelPrefix": "yes", 
+        "SyslogPriority": "30", 
+        "SystemCallErrorNumber": "0", 
+        "TTYReset": "no", 
+        "TTYVHangup": "no", 
+        "TTYVTDisallocate": "no", 
+        "TasksAccounting": "no", 
+        "TasksCurrent": "18446744073709551615", 
+        "TasksMax": "18446744073709551615", 
+        "TimeoutStartUSec": "1min 30s", 
+        "TimeoutStopUSec": "1min 30s", 
+        "TimerSlackNSec": "50000", 
+        "Transient": "no", 
+        "Type": "dbus", 
+        "UMask": "0022", 
+        "UnitFilePreset": "enabled", 
+        "UnitFileState": "enabled", 
+        "WantedBy": "multi-user.target", 
+        "Wants": "network.target", 
+        "WatchdogTimestamp": "vie 2019-11-08 07:11:04 PST", 
+        "WatchdogTimestampMonotonic": "22271347", 
+        "WatchdogUSec": "0"
+    }
+}
+2019-11-13 11:52:30,706 p=13327 u=vagrant |  ok: [infra1.lab.example.com] => {
+    "changed": false, 
+    "enabled": true, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "daemon_reload": false, 
+            "enabled": true, 
+            "masked": null, 
+            "name": "NetworkManager", 
+            "no_block": false, 
+            "state": "started", 
+            "user": false
+        }
+    }, 
+    "name": "NetworkManager", 
+    "state": "started", 
+    "status": {
+        "ActiveEnterTimestamp": "vie 2019-11-08 04:33:15 PST", 
+        "ActiveEnterTimestampMonotonic": "18501747", 
+        "ActiveExitTimestamp": "vie 2019-11-08 04:33:15 PST", 
+        "ActiveExitTimestampMonotonic": "18447258", 
+        "ActiveState": "active", 
+        "After": "system.slice systemd-journald.socket dbus.service basic.target network-pre.target", 
+        "AllowIsolate": "no", 
+        "AmbientCapabilities": "0", 
+        "AssertResult": "yes", 
+        "AssertTimestamp": "vie 2019-11-08 04:33:15 PST", 
+        "AssertTimestampMonotonic": "18468685", 
+        "Before": "network.service network.target shutdown.target NetworkManager-wait-online.service multi-user.target", 
+        "BlockIOAccounting": "no", 
+        "BlockIOWeight": "18446744073709551615", 
+        "BusName": "org.freedesktop.NetworkManager", 
+        "CPUAccounting": "no", 
+        "CPUQuotaPerSecUSec": "infinity", 
+        "CPUSchedulingPolicy": "0", 
+        "CPUSchedulingPriority": "0", 
+        "CPUSchedulingResetOnFork": "no", 
+        "CPUShares": "18446744073709551615", 
+        "CanIsolate": "no", 
+        "CanReload": "yes", 
+        "CanStart": "yes", 
+        "CanStop": "yes", 
+        "CapabilityBoundingSet": "539309282", 
+        "ConditionResult": "yes", 
+        "ConditionTimestamp": "vie 2019-11-08 04:33:15 PST", 
+        "ConditionTimestampMonotonic": "18468684", 
+        "Conflicts": "shutdown.target", 
+        "ControlGroup": "/system.slice/NetworkManager.service", 
+        "ControlPID": "0", 
+        "DefaultDependencies": "yes", 
+        "Delegate": "no", 
+        "Description": "Network Manager", 
+        "DevicePolicy": "auto", 
+        "Documentation": "man:NetworkManager(8)", 
+        "ExecMainCode": "0", 
+        "ExecMainExitTimestampMonotonic": "0", 
+        "ExecMainPID": "2744", 
+        "ExecMainStartTimestamp": "vie 2019-11-08 04:33:15 PST", 
+        "ExecMainStartTimestampMonotonic": "18469792", 
+        "ExecMainStatus": "0", 
+        "ExecReload": "{ path=/usr/bin/dbus-send ; argv[]=/usr/bin/dbus-send --print-reply --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Reload uint32:0 ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "ExecStart": "{ path=/usr/sbin/NetworkManager ; argv[]=/usr/sbin/NetworkManager --no-daemon ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "FailureAction": "none", 
+        "FileDescriptorStoreMax": "0", 
+        "FragmentPath": "/usr/lib/systemd/system/NetworkManager.service", 
+        "GuessMainPID": "yes", 
+        "IOScheduling": "0", 
+        "Id": "NetworkManager.service", 
+        "IgnoreOnIsolate": "no", 
+        "IgnoreOnSnapshot": "no", 
+        "IgnoreSIGPIPE": "yes", 
+        "InactiveEnterTimestamp": "vie 2019-11-08 04:33:15 PST", 
+        "InactiveEnterTimestampMonotonic": "18465857", 
+        "InactiveExitTimestamp": "vie 2019-11-08 04:33:15 PST", 
+        "InactiveExitTimestampMonotonic": "18470912", 
+        "JobTimeoutAction": "none", 
+        "JobTimeoutUSec": "0", 
+        "KillMode": "process", 
+        "KillSignal": "15", 
+        "LimitAS": "18446744073709551615", 
+        "LimitCORE": "18446744073709551615", 
+        "LimitCPU": "18446744073709551615", 
+        "LimitDATA": "18446744073709551615", 
+        "LimitFSIZE": "18446744073709551615", 
+        "LimitLOCKS": "18446744073709551615", 
+        "LimitMEMLOCK": "65536", 
+        "LimitMSGQUEUE": "819200", 
+        "LimitNICE": "0", 
+        "LimitNOFILE": "4096", 
+        "LimitNPROC": "7272", 
+        "LimitRSS": "18446744073709551615", 
+        "LimitRTPRIO": "0", 
+        "LimitRTTIME": "18446744073709551615", 
+        "LimitSIGPENDING": "7272", 
+        "LimitSTACK": "18446744073709551615", 
+        "LoadState": "loaded", 
+        "MainPID": "2744", 
+        "MemoryAccounting": "no", 
+        "MemoryCurrent": "18446744073709551615", 
+        "MemoryLimit": "18446744073709551615", 
+        "MountFlags": "0", 
+        "Names": "NetworkManager.service", 
+        "NeedDaemonReload": "no", 
+        "Nice": "0", 
+        "NoNewPrivileges": "no", 
+        "NonBlocking": "no", 
+        "NotifyAccess": "none", 
+        "OOMScoreAdjust": "0", 
+        "OnFailureJobMode": "replace", 
+        "PermissionsStartOnly": "no", 
+        "PrivateDevices": "no", 
+        "PrivateNetwork": "no", 
+        "PrivateTmp": "no", 
+        "ProtectHome": "read-only", 
+        "ProtectSystem": "yes", 
+        "RefuseManualStart": "no", 
+        "RefuseManualStop": "no", 
+        "RemainAfterExit": "no", 
+        "RequiredBy": "NetworkManager-wait-online.service", 
+        "Requires": "system.slice basic.target", 
+        "Restart": "on-failure", 
+        "RestartUSec": "100ms", 
+        "Result": "success", 
+        "RootDirectoryStartOnly": "no", 
+        "RuntimeDirectoryMode": "0755", 
+        "SameProcessGroup": "no", 
+        "SecureBits": "0", 
+        "SendSIGHUP": "no", 
+        "SendSIGKILL": "yes", 
+        "Slice": "system.slice", 
+        "StandardError": "inherit", 
+        "StandardInput": "null", 
+        "StandardOutput": "journal", 
+        "StartLimitAction": "none", 
+        "StartLimitBurst": "5", 
+        "StartLimitInterval": "10000000", 
+        "StartupBlockIOWeight": "18446744073709551615", 
+        "StartupCPUShares": "18446744073709551615", 
+        "StatusErrno": "0", 
+        "StopWhenUnneeded": "no", 
+        "SubState": "running", 
+        "SyslogLevelPrefix": "yes", 
+        "SyslogPriority": "30", 
+        "SystemCallErrorNumber": "0", 
+        "TTYReset": "no", 
+        "TTYVHangup": "no", 
+        "TTYVTDisallocate": "no", 
+        "TasksAccounting": "no", 
+        "TasksCurrent": "18446744073709551615", 
+        "TasksMax": "18446744073709551615", 
+        "TimeoutStartUSec": "1min 30s", 
+        "TimeoutStopUSec": "1min 30s", 
+        "TimerSlackNSec": "50000", 
+        "Transient": "no", 
+        "Type": "dbus", 
+        "UMask": "0022", 
+        "UnitFilePreset": "enabled", 
+        "UnitFileState": "enabled", 
+        "WantedBy": "multi-user.target", 
+        "Wants": "network.target", 
+        "WatchdogTimestamp": "vie 2019-11-08 04:33:15 PST", 
+        "WatchdogTimestampMonotonic": "18501564", 
+        "WatchdogUSec": "0"
+    }
+}
+2019-11-13 11:52:30,719 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:30,744 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/setup.py
+2019-11-13 11:52:31,318 p=13327 u=vagrant |  Running systemd
+2019-11-13 11:52:31,320 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/systemd.py
+2019-11-13 11:52:31,331 p=13327 u=vagrant |  Running systemd
+2019-11-13 11:52:31,333 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/systemd.py
+2019-11-13 11:52:31,359 p=13327 u=vagrant |  Running systemd
+2019-11-13 11:52:31,360 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/system/systemd.py
+2019-11-13 11:52:31,835 p=13327 u=vagrant |  ok: [infra3.lab.example.com] => {
+    "changed": false, 
+    "enabled": true, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "daemon_reload": false, 
+            "enabled": true, 
+            "masked": null, 
+            "name": "NetworkManager", 
+            "no_block": false, 
+            "state": "started", 
+            "user": false
+        }
+    }, 
+    "name": "NetworkManager", 
+    "state": "started", 
+    "status": {
+        "ActiveEnterTimestamp": "vie 2019-11-08 04:34:24 PST", 
+        "ActiveEnterTimestampMonotonic": "19176852", 
+        "ActiveExitTimestamp": "vie 2019-11-08 04:34:24 PST", 
+        "ActiveExitTimestampMonotonic": "19133372", 
+        "ActiveState": "active", 
+        "After": "network-pre.target dbus.service systemd-journald.socket basic.target system.slice", 
+        "AllowIsolate": "no", 
+        "AmbientCapabilities": "0", 
+        "AssertResult": "yes", 
+        "AssertTimestamp": "vie 2019-11-08 04:34:24 PST", 
+        "AssertTimestampMonotonic": "19149490", 
+        "Before": "network.service network.target multi-user.target NetworkManager-wait-online.service shutdown.target", 
+        "BlockIOAccounting": "no", 
+        "BlockIOWeight": "18446744073709551615", 
+        "BusName": "org.freedesktop.NetworkManager", 
+        "CPUAccounting": "no", 
+        "CPUQuotaPerSecUSec": "infinity", 
+        "CPUSchedulingPolicy": "0", 
+        "CPUSchedulingPriority": "0", 
+        "CPUSchedulingResetOnFork": "no", 
+        "CPUShares": "18446744073709551615", 
+        "CanIsolate": "no", 
+        "CanReload": "yes", 
+        "CanStart": "yes", 
+        "CanStop": "yes", 
+        "CapabilityBoundingSet": "539309282", 
+        "ConditionResult": "yes", 
+        "ConditionTimestamp": "vie 2019-11-08 04:34:24 PST", 
+        "ConditionTimestampMonotonic": "19149490", 
+        "Conflicts": "shutdown.target", 
+        "ControlGroup": "/system.slice/NetworkManager.service", 
+        "ControlPID": "0", 
+        "DefaultDependencies": "yes", 
+        "Delegate": "no", 
+        "Description": "Network Manager", 
+        "DevicePolicy": "auto", 
+        "Documentation": "man:NetworkManager(8)", 
+        "ExecMainCode": "0", 
+        "ExecMainExitTimestampMonotonic": "0", 
+        "ExecMainPID": "2740", 
+        "ExecMainStartTimestamp": "vie 2019-11-08 04:34:24 PST", 
+        "ExecMainStartTimestampMonotonic": "19150148", 
+        "ExecMainStatus": "0", 
+        "ExecReload": "{ path=/usr/bin/dbus-send ; argv[]=/usr/bin/dbus-send --print-reply --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Reload uint32:0 ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "ExecStart": "{ path=/usr/sbin/NetworkManager ; argv[]=/usr/sbin/NetworkManager --no-daemon ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "FailureAction": "none", 
+        "FileDescriptorStoreMax": "0", 
+        "FragmentPath": "/usr/lib/systemd/system/NetworkManager.service", 
+        "GuessMainPID": "yes", 
+        "IOScheduling": "0", 
+        "Id": "NetworkManager.service", 
+        "IgnoreOnIsolate": "no", 
+        "IgnoreOnSnapshot": "no", 
+        "IgnoreSIGPIPE": "yes", 
+        "InactiveEnterTimestamp": "vie 2019-11-08 04:34:24 PST", 
+        "InactiveEnterTimestampMonotonic": "19147379", 
+        "InactiveExitTimestamp": "vie 2019-11-08 04:34:24 PST", 
+        "InactiveExitTimestampMonotonic": "19150209", 
+        "JobTimeoutAction": "none", 
+        "JobTimeoutUSec": "0", 
+        "KillMode": "process", 
+        "KillSignal": "15", 
+        "LimitAS": "18446744073709551615", 
+        "LimitCORE": "18446744073709551615", 
+        "LimitCPU": "18446744073709551615", 
+        "LimitDATA": "18446744073709551615", 
+        "LimitFSIZE": "18446744073709551615", 
+        "LimitLOCKS": "18446744073709551615", 
+        "LimitMEMLOCK": "65536", 
+        "LimitMSGQUEUE": "819200", 
+        "LimitNICE": "0", 
+        "LimitNOFILE": "4096", 
+        "LimitNPROC": "7272", 
+        "LimitRSS": "18446744073709551615", 
+        "LimitRTPRIO": "0", 
+        "LimitRTTIME": "18446744073709551615", 
+        "LimitSIGPENDING": "7272", 
+        "LimitSTACK": "18446744073709551615", 
+        "LoadState": "loaded", 
+        "MainPID": "2740", 
+        "MemoryAccounting": "no", 
+        "MemoryCurrent": "18446744073709551615", 
+        "MemoryLimit": "18446744073709551615", 
+        "MountFlags": "0", 
+        "Names": "NetworkManager.service", 
+        "NeedDaemonReload": "no", 
+        "Nice": "0", 
+        "NoNewPrivileges": "no", 
+        "NonBlocking": "no", 
+        "NotifyAccess": "none", 
+        "OOMScoreAdjust": "0", 
+        "OnFailureJobMode": "replace", 
+        "PermissionsStartOnly": "no", 
+        "PrivateDevices": "no", 
+        "PrivateNetwork": "no", 
+        "PrivateTmp": "no", 
+        "ProtectHome": "read-only", 
+        "ProtectSystem": "yes", 
+        "RefuseManualStart": "no", 
+        "RefuseManualStop": "no", 
+        "RemainAfterExit": "no", 
+        "RequiredBy": "NetworkManager-wait-online.service", 
+        "Requires": "basic.target system.slice", 
+        "Restart": "on-failure", 
+        "RestartUSec": "100ms", 
+        "Result": "success", 
+        "RootDirectoryStartOnly": "no", 
+        "RuntimeDirectoryMode": "0755", 
+        "SameProcessGroup": "no", 
+        "SecureBits": "0", 
+        "SendSIGHUP": "no", 
+        "SendSIGKILL": "yes", 
+        "Slice": "system.slice", 
+        "StandardError": "inherit", 
+        "StandardInput": "null", 
+        "StandardOutput": "journal", 
+        "StartLimitAction": "none", 
+        "StartLimitBurst": "5", 
+        "StartLimitInterval": "10000000", 
+        "StartupBlockIOWeight": "18446744073709551615", 
+        "StartupCPUShares": "18446744073709551615", 
+        "StatusErrno": "0", 
+        "StopWhenUnneeded": "no", 
+        "SubState": "running", 
+        "SyslogLevelPrefix": "yes", 
+        "SyslogPriority": "30", 
+        "SystemCallErrorNumber": "0", 
+        "TTYReset": "no", 
+        "TTYVHangup": "no", 
+        "TTYVTDisallocate": "no", 
+        "TasksAccounting": "no", 
+        "TasksCurrent": "18446744073709551615", 
+        "TasksMax": "18446744073709551615", 
+        "TimeoutStartUSec": "1min 30s", 
+        "TimeoutStopUSec": "1min 30s", 
+        "TimerSlackNSec": "50000", 
+        "Transient": "no", 
+        "Type": "dbus", 
+        "UMask": "0022", 
+        "UnitFilePreset": "enabled", 
+        "UnitFileState": "enabled", 
+        "WantedBy": "multi-user.target", 
+        "Wants": "network.target", 
+        "WatchdogTimestamp": "vie 2019-11-08 04:34:24 PST", 
+        "WatchdogTimestampMonotonic": "19176786", 
+        "WatchdogUSec": "0"
+    }
+}
+2019-11-13 11:52:31,876 p=13327 u=vagrant |  ok: [app2.lab.example.com] => {
+    "changed": false, 
+    "enabled": true, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "daemon_reload": false, 
+            "enabled": true, 
+            "masked": null, 
+            "name": "NetworkManager", 
+            "no_block": false, 
+            "state": "started", 
+            "user": false
+        }
+    }, 
+    "name": "NetworkManager", 
+    "state": "started", 
+    "status": {
+        "ActiveEnterTimestamp": "vie 2019-11-08 04:35:31 PST", 
+        "ActiveEnterTimestampMonotonic": "17780177", 
+        "ActiveExitTimestamp": "vie 2019-11-08 04:35:31 PST", 
+        "ActiveExitTimestampMonotonic": "17736196", 
+        "ActiveState": "active", 
+        "After": "dbus.service basic.target network-pre.target system.slice systemd-journald.socket", 
+        "AllowIsolate": "no", 
+        "AmbientCapabilities": "0", 
+        "AssertResult": "yes", 
+        "AssertTimestamp": "vie 2019-11-08 04:35:31 PST", 
+        "AssertTimestampMonotonic": "17752336", 
+        "Before": "network.target network.service multi-user.target shutdown.target NetworkManager-wait-online.service", 
+        "BlockIOAccounting": "no", 
+        "BlockIOWeight": "18446744073709551615", 
+        "BusName": "org.freedesktop.NetworkManager", 
+        "CPUAccounting": "no", 
+        "CPUQuotaPerSecUSec": "infinity", 
+        "CPUSchedulingPolicy": "0", 
+        "CPUSchedulingPriority": "0", 
+        "CPUSchedulingResetOnFork": "no", 
+        "CPUShares": "18446744073709551615", 
+        "CanIsolate": "no", 
+        "CanReload": "yes", 
+        "CanStart": "yes", 
+        "CanStop": "yes", 
+        "CapabilityBoundingSet": "539309282", 
+        "ConditionResult": "yes", 
+        "ConditionTimestamp": "vie 2019-11-08 04:35:31 PST", 
+        "ConditionTimestampMonotonic": "17752336", 
+        "Conflicts": "shutdown.target", 
+        "ControlGroup": "/system.slice/NetworkManager.service", 
+        "ControlPID": "0", 
+        "DefaultDependencies": "yes", 
+        "Delegate": "no", 
+        "Description": "Network Manager", 
+        "DevicePolicy": "auto", 
+        "Documentation": "man:NetworkManager(8)", 
+        "ExecMainCode": "0", 
+        "ExecMainExitTimestampMonotonic": "0", 
+        "ExecMainPID": "2712", 
+        "ExecMainStartTimestamp": "vie 2019-11-08 04:35:31 PST", 
+        "ExecMainStartTimestampMonotonic": "17752812", 
+        "ExecMainStatus": "0", 
+        "ExecReload": "{ path=/usr/bin/dbus-send ; argv[]=/usr/bin/dbus-send --print-reply --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Reload uint32:0 ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "ExecStart": "{ path=/usr/sbin/NetworkManager ; argv[]=/usr/sbin/NetworkManager --no-daemon ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "FailureAction": "none", 
+        "FileDescriptorStoreMax": "0", 
+        "FragmentPath": "/usr/lib/systemd/system/NetworkManager.service", 
+        "GuessMainPID": "yes", 
+        "IOScheduling": "0", 
+        "Id": "NetworkManager.service", 
+        "IgnoreOnIsolate": "no", 
+        "IgnoreOnSnapshot": "no", 
+        "IgnoreSIGPIPE": "yes", 
+        "InactiveEnterTimestamp": "vie 2019-11-08 04:35:31 PST", 
+        "InactiveEnterTimestampMonotonic": "17751069", 
+        "InactiveExitTimestamp": "vie 2019-11-08 04:35:31 PST", 
+        "InactiveExitTimestampMonotonic": "17752864", 
+        "JobTimeoutAction": "none", 
+        "JobTimeoutUSec": "0", 
+        "KillMode": "process", 
+        "KillSignal": "15", 
+        "LimitAS": "18446744073709551615", 
+        "LimitCORE": "18446744073709551615", 
+        "LimitCPU": "18446744073709551615", 
+        "LimitDATA": "18446744073709551615", 
+        "LimitFSIZE": "18446744073709551615", 
+        "LimitLOCKS": "18446744073709551615", 
+        "LimitMEMLOCK": "65536", 
+        "LimitMSGQUEUE": "819200", 
+        "LimitNICE": "0", 
+        "LimitNOFILE": "4096", 
+        "LimitNPROC": "7272", 
+        "LimitRSS": "18446744073709551615", 
+        "LimitRTPRIO": "0", 
+        "LimitRTTIME": "18446744073709551615", 
+        "LimitSIGPENDING": "7272", 
+        "LimitSTACK": "18446744073709551615", 
+        "LoadState": "loaded", 
+        "MainPID": "2712", 
+        "MemoryAccounting": "no", 
+        "MemoryCurrent": "18446744073709551615", 
+        "MemoryLimit": "18446744073709551615", 
+        "MountFlags": "0", 
+        "Names": "NetworkManager.service", 
+        "NeedDaemonReload": "no", 
+        "Nice": "0", 
+        "NoNewPrivileges": "no", 
+        "NonBlocking": "no", 
+        "NotifyAccess": "none", 
+        "OOMScoreAdjust": "0", 
+        "OnFailureJobMode": "replace", 
+        "PermissionsStartOnly": "no", 
+        "PrivateDevices": "no", 
+        "PrivateNetwork": "no", 
+        "PrivateTmp": "no", 
+        "ProtectHome": "read-only", 
+        "ProtectSystem": "yes", 
+        "RefuseManualStart": "no", 
+        "RefuseManualStop": "no", 
+        "RemainAfterExit": "no", 
+        "RequiredBy": "NetworkManager-wait-online.service", 
+        "Requires": "system.slice basic.target", 
+        "Restart": "on-failure", 
+        "RestartUSec": "100ms", 
+        "Result": "success", 
+        "RootDirectoryStartOnly": "no", 
+        "RuntimeDirectoryMode": "0755", 
+        "SameProcessGroup": "no", 
+        "SecureBits": "0", 
+        "SendSIGHUP": "no", 
+        "SendSIGKILL": "yes", 
+        "Slice": "system.slice", 
+        "StandardError": "inherit", 
+        "StandardInput": "null", 
+        "StandardOutput": "journal", 
+        "StartLimitAction": "none", 
+        "StartLimitBurst": "5", 
+        "StartLimitInterval": "10000000", 
+        "StartupBlockIOWeight": "18446744073709551615", 
+        "StartupCPUShares": "18446744073709551615", 
+        "StatusErrno": "0", 
+        "StopWhenUnneeded": "no", 
+        "SubState": "running", 
+        "SyslogLevelPrefix": "yes", 
+        "SyslogPriority": "30", 
+        "SystemCallErrorNumber": "0", 
+        "TTYReset": "no", 
+        "TTYVHangup": "no", 
+        "TTYVTDisallocate": "no", 
+        "TasksAccounting": "no", 
+        "TasksCurrent": "18446744073709551615", 
+        "TasksMax": "18446744073709551615", 
+        "TimeoutStartUSec": "1min 30s", 
+        "TimeoutStopUSec": "1min 30s", 
+        "TimerSlackNSec": "50000", 
+        "Transient": "no", 
+        "Type": "dbus", 
+        "UMask": "0022", 
+        "UnitFilePreset": "enabled", 
+        "UnitFileState": "enabled", 
+        "WantedBy": "multi-user.target", 
+        "Wants": "network.target", 
+        "WatchdogTimestamp": "vie 2019-11-08 04:35:31 PST", 
+        "WatchdogTimestampMonotonic": "17780114", 
+        "WatchdogUSec": "0"
+    }
+}
+2019-11-13 11:52:31,879 p=13327 u=vagrant |  ok: [app1.lab.example.com] => {
+    "changed": false, 
+    "enabled": true, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "daemon_reload": false, 
+            "enabled": true, 
+            "masked": null, 
+            "name": "NetworkManager", 
+            "no_block": false, 
+            "state": "started", 
+            "user": false
+        }
+    }, 
+    "name": "NetworkManager", 
+    "state": "started", 
+    "status": {
+        "ActiveEnterTimestamp": "vie 2019-11-08 04:34:58 PST", 
+        "ActiveEnterTimestampMonotonic": "17927272", 
+        "ActiveExitTimestamp": "vie 2019-11-08 04:34:58 PST", 
+        "ActiveExitTimestampMonotonic": "17886670", 
+        "ActiveState": "active", 
+        "After": "dbus.service network-pre.target systemd-journald.socket basic.target system.slice", 
+        "AllowIsolate": "no", 
+        "AmbientCapabilities": "0", 
+        "AssertResult": "yes", 
+        "AssertTimestamp": "vie 2019-11-08 04:34:58 PST", 
+        "AssertTimestampMonotonic": "17898907", 
+        "Before": "NetworkManager-wait-online.service multi-user.target network.target shutdown.target network.service", 
+        "BlockIOAccounting": "no", 
+        "BlockIOWeight": "18446744073709551615", 
+        "BusName": "org.freedesktop.NetworkManager", 
+        "CPUAccounting": "no", 
+        "CPUQuotaPerSecUSec": "infinity", 
+        "CPUSchedulingPolicy": "0", 
+        "CPUSchedulingPriority": "0", 
+        "CPUSchedulingResetOnFork": "no", 
+        "CPUShares": "18446744073709551615", 
+        "CanIsolate": "no", 
+        "CanReload": "yes", 
+        "CanStart": "yes", 
+        "CanStop": "yes", 
+        "CapabilityBoundingSet": "539309282", 
+        "ConditionResult": "yes", 
+        "ConditionTimestamp": "vie 2019-11-08 04:34:58 PST", 
+        "ConditionTimestampMonotonic": "17898906", 
+        "Conflicts": "shutdown.target", 
+        "ControlGroup": "/system.slice/NetworkManager.service", 
+        "ControlPID": "0", 
+        "DefaultDependencies": "yes", 
+        "Delegate": "no", 
+        "Description": "Network Manager", 
+        "DevicePolicy": "auto", 
+        "Documentation": "man:NetworkManager(8)", 
+        "ExecMainCode": "0", 
+        "ExecMainExitTimestampMonotonic": "0", 
+        "ExecMainPID": "2709", 
+        "ExecMainStartTimestamp": "vie 2019-11-08 04:34:58 PST", 
+        "ExecMainStartTimestampMonotonic": "17899527", 
+        "ExecMainStatus": "0", 
+        "ExecReload": "{ path=/usr/bin/dbus-send ; argv[]=/usr/bin/dbus-send --print-reply --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager.Reload uint32:0 ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "ExecStart": "{ path=/usr/sbin/NetworkManager ; argv[]=/usr/sbin/NetworkManager --no-daemon ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }", 
+        "FailureAction": "none", 
+        "FileDescriptorStoreMax": "0", 
+        "FragmentPath": "/usr/lib/systemd/system/NetworkManager.service", 
+        "GuessMainPID": "yes", 
+        "IOScheduling": "0", 
+        "Id": "NetworkManager.service", 
+        "IgnoreOnIsolate": "no", 
+        "IgnoreOnSnapshot": "no", 
+        "IgnoreSIGPIPE": "yes", 
+        "InactiveEnterTimestamp": "vie 2019-11-08 04:34:58 PST", 
+        "InactiveEnterTimestampMonotonic": "17896459", 
+        "InactiveExitTimestamp": "vie 2019-11-08 04:34:58 PST", 
+        "InactiveExitTimestampMonotonic": "17899585", 
+        "JobTimeoutAction": "none", 
+        "JobTimeoutUSec": "0", 
+        "KillMode": "process", 
+        "KillSignal": "15", 
+        "LimitAS": "18446744073709551615", 
+        "LimitCORE": "18446744073709551615", 
+        "LimitCPU": "18446744073709551615", 
+        "LimitDATA": "18446744073709551615", 
+        "LimitFSIZE": "18446744073709551615", 
+        "LimitLOCKS": "18446744073709551615", 
+        "LimitMEMLOCK": "65536", 
+        "LimitMSGQUEUE": "819200", 
+        "LimitNICE": "0", 
+        "LimitNOFILE": "4096", 
+        "LimitNPROC": "7272", 
+        "LimitRSS": "18446744073709551615", 
+        "LimitRTPRIO": "0", 
+        "LimitRTTIME": "18446744073709551615", 
+        "LimitSIGPENDING": "7272", 
+        "LimitSTACK": "18446744073709551615", 
+        "LoadState": "loaded", 
+        "MainPID": "2709", 
+        "MemoryAccounting": "no", 
+        "MemoryCurrent": "18446744073709551615", 
+        "MemoryLimit": "18446744073709551615", 
+        "MountFlags": "0", 
+        "Names": "NetworkManager.service", 
+        "NeedDaemonReload": "no", 
+        "Nice": "0", 
+        "NoNewPrivileges": "no", 
+        "NonBlocking": "no", 
+        "NotifyAccess": "none", 
+        "OOMScoreAdjust": "0", 
+        "OnFailureJobMode": "replace", 
+        "PermissionsStartOnly": "no", 
+        "PrivateDevices": "no", 
+        "PrivateNetwork": "no", 
+        "PrivateTmp": "no", 
+        "ProtectHome": "read-only", 
+        "ProtectSystem": "yes", 
+        "RefuseManualStart": "no", 
+        "RefuseManualStop": "no", 
+        "RemainAfterExit": "no", 
+        "RequiredBy": "NetworkManager-wait-online.service", 
+        "Requires": "basic.target system.slice", 
+        "Restart": "on-failure", 
+        "RestartUSec": "100ms", 
+        "Result": "success", 
+        "RootDirectoryStartOnly": "no", 
+        "RuntimeDirectoryMode": "0755", 
+        "SameProcessGroup": "no", 
+        "SecureBits": "0", 
+        "SendSIGHUP": "no", 
+        "SendSIGKILL": "yes", 
+        "Slice": "system.slice", 
+        "StandardError": "inherit", 
+        "StandardInput": "null", 
+        "StandardOutput": "journal", 
+        "StartLimitAction": "none", 
+        "StartLimitBurst": "5", 
+        "StartLimitInterval": "10000000", 
+        "StartupBlockIOWeight": "18446744073709551615", 
+        "StartupCPUShares": "18446744073709551615", 
+        "StatusErrno": "0", 
+        "StopWhenUnneeded": "no", 
+        "SubState": "running", 
+        "SyslogLevelPrefix": "yes", 
+        "SyslogPriority": "30", 
+        "SystemCallErrorNumber": "0", 
+        "TTYReset": "no", 
+        "TTYVHangup": "no", 
+        "TTYVTDisallocate": "no", 
+        "TasksAccounting": "no", 
+        "TasksCurrent": "18446744073709551615", 
+        "TasksMax": "18446744073709551615", 
+        "TimeoutStartUSec": "1min 30s", 
+        "TimeoutStopUSec": "1min 30s", 
+        "TimerSlackNSec": "50000", 
+        "Transient": "no", 
+        "Type": "dbus", 
+        "UMask": "0022", 
+        "UnitFilePreset": "enabled", 
+        "UnitFileState": "enabled", 
+        "WantedBy": "multi-user.target", 
+        "Wants": "network.target", 
+        "WatchdogTimestamp": "vie 2019-11-08 04:34:58 PST", 
+        "WatchdogTimestampMonotonic": "17927210", 
+        "WatchdogUSec": "0"
+    }
+}
+2019-11-13 11:52:31,892 p=13327 u=vagrant |  TASK [Upgrade all packages] *************************************************************************************************************************************************
+2019-11-13 11:52:31,893 p=13327 u=vagrant |  task path: /home/vagrant/install-run/cluster-pre/pre-install.yml:49
+2019-11-13 11:52:32,306 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/packaging/os/yum.py
+2019-11-13 11:52:32,308 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/packaging/os/yum.py
+2019-11-13 11:52:32,315 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/packaging/os/yum.py
+2019-11-13 11:52:32,321 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/packaging/os/yum.py
+2019-11-13 11:52:32,326 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/packaging/os/yum.py
+2019-11-13 11:52:53,980 p=13327 u=vagrant |  ok: [master2.lab.example.com] => {
+    "changed": false, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "allow_downgrade": false, 
+            "conf_file": null, 
+            "disable_gpg_check": false, 
+            "disablerepo": null, 
+            "enablerepo": null, 
+            "exclude": null, 
+            "install_repoquery": true, 
+            "installroot": "/", 
+            "list": null, 
+            "name": [
+                "*"
+            ], 
+            "security": false, 
+            "skip_broken": false, 
+            "state": "latest", 
+            "update_cache": false, 
+            "validate_certs": true
+        }
+    }, 
+    "msg": "", 
+    "rc": 0, 
+    "results": [
+        "Nothing to do here, all packages are up to date"
+    ]
+}
+2019-11-13 11:52:54,042 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/packaging/os/yum.py
+2019-11-13 11:52:54,163 p=13327 u=vagrant |  ok: [master3.lab.example.com] => {
+    "changed": false, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "allow_downgrade": false, 
+            "conf_file": null, 
+            "disable_gpg_check": false, 
+            "disablerepo": null, 
+            "enablerepo": null, 
+            "exclude": null, 
+            "install_repoquery": true, 
+            "installroot": "/", 
+            "list": null, 
+            "name": [
+                "*"
+            ], 
+            "security": false, 
+            "skip_broken": false, 
+            "state": "latest", 
+            "update_cache": false, 
+            "validate_certs": true
+        }
+    }, 
+    "msg": "", 
+    "rc": 0, 
+    "results": [
+        "Nothing to do here, all packages are up to date"
+    ]
+}
+2019-11-13 11:52:54,221 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/packaging/os/yum.py
+2019-11-13 11:52:54,294 p=13327 u=vagrant |  ok: [master1.lab.example.com] => {
+    "changed": false, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "allow_downgrade": false, 
+            "conf_file": null, 
+            "disable_gpg_check": false, 
+            "disablerepo": null, 
+            "enablerepo": null, 
+            "exclude": null, 
+            "install_repoquery": true, 
+            "installroot": "/", 
+            "list": null, 
+            "name": [
+                "*"
+            ], 
+            "security": false, 
+            "skip_broken": false, 
+            "state": "latest", 
+            "update_cache": false, 
+            "validate_certs": true
+        }
+    }, 
+    "msg": "", 
+    "rc": 0, 
+    "results": [
+        "Nothing to do here, all packages are up to date"
+    ]
+}
+2019-11-13 11:52:54,368 p=13327 u=vagrant |  Using module file /usr/lib/python2.7/site-packages/ansible/modules/packaging/os/yum.py
+2019-11-13 11:52:54,622 p=13327 u=vagrant |  ok: [infra2.lab.example.com] => {
+    "changed": false, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "allow_downgrade": false, 
+            "conf_file": null, 
+            "disable_gpg_check": false, 
+            "disablerepo": null, 
+            "enablerepo": null, 
+            "exclude": null, 
+            "install_repoquery": true, 
+            "installroot": "/", 
+            "list": null, 
+            "name": [
+                "*"
+            ], 
+            "security": false, 
+            "skip_broken": false, 
+            "state": "latest", 
+            "update_cache": false, 
+            "validate_certs": true
+        }
+    }, 
+    "msg": "", 
+    "rc": 0, 
+    "results": [
+        "Nothing to do here, all packages are up to date"
+    ]
+}
+2019-11-13 11:52:54,809 p=13327 u=vagrant |  ok: [infra1.lab.example.com] => {
+    "changed": false, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "allow_downgrade": false, 
+            "conf_file": null, 
+            "disable_gpg_check": false, 
+            "disablerepo": null, 
+            "enablerepo": null, 
+            "exclude": null, 
+            "install_repoquery": true, 
+            "installroot": "/", 
+            "list": null, 
+            "name": [
+                "*"
+            ], 
+            "security": false, 
+            "skip_broken": false, 
+            "state": "latest", 
+            "update_cache": false, 
+            "validate_certs": true
+        }
+    }, 
+    "msg": "", 
+    "rc": 0, 
+    "results": [
+        "Nothing to do here, all packages are up to date"
+    ]
+}
+2019-11-13 11:53:12,765 p=13327 u=vagrant |  ok: [app1.lab.example.com] => {
+    "changed": false, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "allow_downgrade": false, 
+            "conf_file": null, 
+            "disable_gpg_check": false, 
+            "disablerepo": null, 
+            "enablerepo": null, 
+            "exclude": null, 
+            "install_repoquery": true, 
+            "installroot": "/", 
+            "list": null, 
+            "name": [
+                "*"
+            ], 
+            "security": false, 
+            "skip_broken": false, 
+            "state": "latest", 
+            "update_cache": false, 
+            "validate_certs": true
+        }
+    }, 
+    "msg": "", 
+    "rc": 0, 
+    "results": [
+        "Nothing to do here, all packages are up to date"
+    ]
+}
+2019-11-13 11:53:13,023 p=13327 u=vagrant |  ok: [infra3.lab.example.com] => {
+    "changed": false, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "allow_downgrade": false, 
+            "conf_file": null, 
+            "disable_gpg_check": false, 
+            "disablerepo": null, 
+            "enablerepo": null, 
+            "exclude": null, 
+            "install_repoquery": true, 
+            "installroot": "/", 
+            "list": null, 
+            "name": [
+                "*"
+            ], 
+            "security": false, 
+            "skip_broken": false, 
+            "state": "latest", 
+            "update_cache": false, 
+            "validate_certs": true
+        }
+    }, 
+    "msg": "", 
+    "rc": 0, 
+    "results": [
+        "Nothing to do here, all packages are up to date"
+    ]
+}
+2019-11-13 11:53:13,242 p=13327 u=vagrant |  ok: [app2.lab.example.com] => {
+    "changed": false, 
+    "failed": false, 
+    "invocation": {
+        "module_args": {
+            "allow_downgrade": false, 
+            "conf_file": null, 
+            "disable_gpg_check": false, 
+            "disablerepo": null, 
+            "enablerepo": null, 
+            "exclude": null, 
+            "install_repoquery": true, 
+            "installroot": "/", 
+            "list": null, 
+            "name": [
+                "*"
+            ], 
+            "security": false, 
+            "skip_broken": false, 
+            "state": "latest", 
+            "update_cache": false, 
+            "validate_certs": true
+        }
+    }, 
+    "msg": "", 
+    "rc": 0, 
+    "results": [
+        "Nothing to do here, all packages are up to date"
+    ]
+}
+2019-11-13 11:53:13,245 p=13327 u=vagrant |  META: ran handlers
+2019-11-13 11:53:13,247 p=13327 u=vagrant |  META: ran handlers
+2019-11-13 11:53:13,250 p=13327 u=vagrant |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-13 11:53:13,250 p=13327 u=vagrant |  app1.lab.example.com       : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 11:53:13,250 p=13327 u=vagrant |  app2.lab.example.com       : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 11:53:13,251 p=13327 u=vagrant |  infra1.lab.example.com     : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 11:53:13,251 p=13327 u=vagrant |  infra2.lab.example.com     : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 11:53:13,251 p=13327 u=vagrant |  infra3.lab.example.com     : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 11:53:13,251 p=13327 u=vagrant |  master1.lab.example.com    : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 11:53:13,252 p=13327 u=vagrant |  master2.lab.example.com    : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 11:53:13,252 p=13327 u=vagrant |  master3.lab.example.com    : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 12:05:44,258 p=14000 u=vagrant |  PLAY [nodes] ****************************************************************************************************************************************************************
+2019-11-13 12:05:44,274 p=14000 u=vagrant |  TASK [Gathering Facts] ******************************************************************************************************************************************************
+2019-11-13 12:05:46,786 p=14000 u=vagrant |  ok: [master1.lab.example.com]
+2019-11-13 12:05:46,841 p=14000 u=vagrant |  ok: [infra1.lab.example.com]
+2019-11-13 12:05:46,867 p=14000 u=vagrant |  ok: [infra2.lab.example.com]
+2019-11-13 12:05:46,890 p=14000 u=vagrant |  ok: [master2.lab.example.com]
+2019-11-13 12:05:46,928 p=14000 u=vagrant |  ok: [master3.lab.example.com]
+2019-11-13 12:05:48,379 p=14000 u=vagrant |  ok: [app2.lab.example.com]
+2019-11-13 12:05:48,392 p=14000 u=vagrant |  ok: [infra3.lab.example.com]
+2019-11-13 12:05:48,436 p=14000 u=vagrant |  ok: [app1.lab.example.com]
+2019-11-13 12:05:48,449 p=14000 u=vagrant |  TASK [Enable SELinux in Enforcing Mode] *************************************************************************************************************************************
+2019-11-13 12:05:49,930 p=14000 u=vagrant |  ok: [infra1.lab.example.com]
+2019-11-13 12:05:49,963 p=14000 u=vagrant |  ok: [infra2.lab.example.com]
+2019-11-13 12:05:50,016 p=14000 u=vagrant |  ok: [master1.lab.example.com]
+2019-11-13 12:05:50,017 p=14000 u=vagrant |  ok: [master2.lab.example.com]
+2019-11-13 12:05:50,017 p=14000 u=vagrant |  ok: [master3.lab.example.com]
+2019-11-13 12:05:50,563 p=14000 u=vagrant |  ok: [infra3.lab.example.com]
+2019-11-13 12:05:50,648 p=14000 u=vagrant |  ok: [app1.lab.example.com]
+2019-11-13 12:05:50,663 p=14000 u=vagrant |  ok: [app2.lab.example.com]
+2019-11-13 12:05:50,679 p=14000 u=vagrant |  TASK [Ensuring NetworkManager is enabled and running] ***********************************************************************************************************************
+2019-11-13 12:05:52,620 p=14000 u=vagrant |  ok: [infra2.lab.example.com]
+2019-11-13 12:05:52,694 p=14000 u=vagrant |  ok: [master1.lab.example.com]
+2019-11-13 12:05:52,696 p=14000 u=vagrant |  ok: [infra1.lab.example.com]
+2019-11-13 12:05:52,696 p=14000 u=vagrant |  ok: [master3.lab.example.com]
+2019-11-13 12:05:52,697 p=14000 u=vagrant |  ok: [master2.lab.example.com]
+2019-11-13 12:05:53,837 p=14000 u=vagrant |  ok: [infra3.lab.example.com]
+2019-11-13 12:05:53,869 p=14000 u=vagrant |  ok: [app1.lab.example.com]
+2019-11-13 12:05:53,881 p=14000 u=vagrant |  ok: [app2.lab.example.com]
+2019-11-13 12:05:53,896 p=14000 u=vagrant |  TASK [Upgrade all packages] *************************************************************************************************************************************************
+2019-11-13 12:06:16,433 p=14000 u=vagrant |  ok: [master3.lab.example.com]
+2019-11-13 12:06:16,518 p=14000 u=vagrant |  ok: [infra1.lab.example.com]
+2019-11-13 12:06:16,610 p=14000 u=vagrant |  ok: [infra2.lab.example.com]
+2019-11-13 12:06:17,136 p=14000 u=vagrant |  ok: [master2.lab.example.com]
+2019-11-13 12:06:17,628 p=14000 u=vagrant |  ok: [master1.lab.example.com]
+2019-11-13 12:06:34,783 p=14000 u=vagrant |  ok: [infra3.lab.example.com]
+2019-11-13 12:06:35,123 p=14000 u=vagrant |  ok: [app2.lab.example.com]
+2019-11-13 12:06:35,200 p=14000 u=vagrant |  ok: [app1.lab.example.com]
+2019-11-13 12:06:35,218 p=14000 u=vagrant |  TASK [make-lvol : Make sure packages are installed] *************************************************************************************************************************
+2019-11-13 12:06:35,420 p=14000 u=vagrant |  skipping: [infra1.lab.example.com] => (item=[]) 
+2019-11-13 12:06:35,546 p=14000 u=vagrant |  skipping: [infra2.lab.example.com] => (item=[]) 
+2019-11-13 12:06:35,548 p=14000 u=vagrant |  skipping: [infra3.lab.example.com] => (item=[]) 
+2019-11-13 12:06:35,556 p=14000 u=vagrant |  skipping: [app1.lab.example.com] => (item=[]) 
+2019-11-13 12:06:35,597 p=14000 u=vagrant |  skipping: [app2.lab.example.com] => (item=[]) 
+2019-11-13 12:06:48,849 p=14000 u=vagrant |  ok: [master3.lab.example.com] => (item=[u'lvm2'])
+2019-11-13 12:06:48,885 p=14000 u=vagrant |  ok: [master2.lab.example.com] => (item=[u'lvm2'])
+2019-11-13 12:06:49,388 p=14000 u=vagrant |  ok: [master1.lab.example.com] => (item=[u'lvm2'])
+2019-11-13 12:06:49,404 p=14000 u=vagrant |  TASK [make-lvol : Create volume group] **************************************************************************************************************************************
+2019-11-13 12:06:49,682 p=14000 u=vagrant |  skipping: [infra1.lab.example.com]
+2019-11-13 12:06:49,683 p=14000 u=vagrant |  skipping: [infra2.lab.example.com]
+2019-11-13 12:06:49,684 p=14000 u=vagrant |  skipping: [infra3.lab.example.com]
+2019-11-13 12:06:49,684 p=14000 u=vagrant |  skipping: [app1.lab.example.com]
+2019-11-13 12:06:49,711 p=14000 u=vagrant |  skipping: [app2.lab.example.com]
+2019-11-13 12:06:50,504 p=14000 u=vagrant |  changed: [master1.lab.example.com]
+2019-11-13 12:06:50,513 p=14000 u=vagrant |  changed: [master3.lab.example.com]
+2019-11-13 12:06:50,557 p=14000 u=vagrant |  changed: [master2.lab.example.com]
+2019-11-13 12:06:50,574 p=14000 u=vagrant |  TASK [make-lvol : Create logical volume] ************************************************************************************************************************************
+2019-11-13 12:06:50,832 p=14000 u=vagrant |  skipping: [infra1.lab.example.com]
+2019-11-13 12:06:50,885 p=14000 u=vagrant |  skipping: [infra2.lab.example.com]
+2019-11-13 12:06:50,886 p=14000 u=vagrant |  skipping: [infra3.lab.example.com]
+2019-11-13 12:06:50,907 p=14000 u=vagrant |  skipping: [app1.lab.example.com]
+2019-11-13 12:06:50,926 p=14000 u=vagrant |  skipping: [app2.lab.example.com]
+2019-11-13 12:06:51,575 p=14000 u=vagrant |  changed: [master3.lab.example.com]
+2019-11-13 12:06:51,594 p=14000 u=vagrant |  changed: [master2.lab.example.com]
+2019-11-13 12:06:51,617 p=14000 u=vagrant |  changed: [master1.lab.example.com]
+2019-11-13 12:06:51,635 p=14000 u=vagrant |  TASK [make-lvol : Create filesystem for logical volume] *********************************************************************************************************************
+2019-11-13 12:06:51,842 p=14000 u=vagrant |  skipping: [infra1.lab.example.com]
+2019-11-13 12:06:51,881 p=14000 u=vagrant |  skipping: [infra2.lab.example.com]
+2019-11-13 12:06:51,907 p=14000 u=vagrant |  skipping: [infra3.lab.example.com]
+2019-11-13 12:06:51,930 p=14000 u=vagrant |  skipping: [app2.lab.example.com]
+2019-11-13 12:06:51,934 p=14000 u=vagrant |  skipping: [app1.lab.example.com]
+2019-11-13 12:06:52,967 p=14000 u=vagrant |  changed: [master1.lab.example.com]
+2019-11-13 12:06:52,976 p=14000 u=vagrant |  changed: [master3.lab.example.com]
+2019-11-13 12:06:52,976 p=14000 u=vagrant |  changed: [master2.lab.example.com]
+2019-11-13 12:06:52,995 p=14000 u=vagrant |  TASK [make-lvol : Create mount point for logical volume] ********************************************************************************************************************
+2019-11-13 12:06:53,268 p=14000 u=vagrant |  skipping: [infra1.lab.example.com]
+2019-11-13 12:06:53,269 p=14000 u=vagrant |  skipping: [infra2.lab.example.com]
+2019-11-13 12:06:53,270 p=14000 u=vagrant |  skipping: [infra3.lab.example.com]
+2019-11-13 12:06:53,288 p=14000 u=vagrant |  skipping: [app1.lab.example.com]
+2019-11-13 12:06:53,294 p=14000 u=vagrant |  skipping: [app2.lab.example.com]
+2019-11-13 12:06:53,855 p=14000 u=vagrant |  changed: [master1.lab.example.com]
+2019-11-13 12:06:53,856 p=14000 u=vagrant |  changed: [master2.lab.example.com]
+2019-11-13 12:06:53,861 p=14000 u=vagrant |  changed: [master3.lab.example.com]
+2019-11-13 12:06:53,874 p=14000 u=vagrant |  TASK [make-lvol : Mount logical volume] *************************************************************************************************************************************
+2019-11-13 12:06:54,137 p=14000 u=vagrant |  skipping: [infra1.lab.example.com]
+2019-11-13 12:06:54,183 p=14000 u=vagrant |  skipping: [infra2.lab.example.com]
+2019-11-13 12:06:54,192 p=14000 u=vagrant |  skipping: [infra3.lab.example.com]
+2019-11-13 12:06:54,206 p=14000 u=vagrant |  skipping: [app1.lab.example.com]
+2019-11-13 12:06:54,220 p=14000 u=vagrant |  skipping: [app2.lab.example.com]
+2019-11-13 12:06:54,801 p=14000 u=vagrant |  changed: [master2.lab.example.com]
+2019-11-13 12:06:54,808 p=14000 u=vagrant |  changed: [master1.lab.example.com]
+2019-11-13 12:06:54,821 p=14000 u=vagrant |  changed: [master3.lab.example.com]
+2019-11-13 12:06:54,830 p=14000 u=vagrant |  PLAY RECAP ******************************************************************************************************************************************************************
+2019-11-13 12:06:54,831 p=14000 u=vagrant |  app1.lab.example.com       : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 12:06:54,831 p=14000 u=vagrant |  app2.lab.example.com       : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 12:06:54,831 p=14000 u=vagrant |  infra1.lab.example.com     : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 12:06:54,831 p=14000 u=vagrant |  infra2.lab.example.com     : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 12:06:54,832 p=14000 u=vagrant |  infra3.lab.example.com     : ok=4    changed=0    unreachable=0    failed=0   
+2019-11-13 12:06:54,832 p=14000 u=vagrant |  master1.lab.example.com    : ok=10   changed=5    unreachable=0    failed=0   
+2019-11-13 12:06:54,832 p=14000 u=vagrant |  master2.lab.example.com    : ok=10   changed=5    unreachable=0    failed=0   
+2019-11-13 12:06:54,832 p=14000 u=vagrant |  master3.lab.example.com    : ok=10   changed=5    unreachable=0    failed=0   
+2019-11-26 07:12:07,823 p=31691 u=vagrant |  ERROR! the playbook: openshift-ansible/playbooks/prerequisites.yml could not be found
